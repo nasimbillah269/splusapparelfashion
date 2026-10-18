@@ -1,0 +1,2150 @@
+body{
+       font-family: "Roboto", sans-serif !important;
+}
+.theme-default .hc-offcanvas-nav .nav-container, .theme-default .hc-offcanvas-nav .nav-wrapper, .theme-default .hc-offcanvas-nav ul {
+    background: #121212 !important;
+}
+
+
+.carousel {
+    top: 0 !important;
+    width: 100% !important;
+}
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1321px;
+    }
+}
+.languagePart select.gt_selector.notranslate {
+    display: block;
+    width: 50%;
+    background-color: #EEEEEE;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 8px auto;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.logo a img {
+    width: 150px !important;
+}
+
+.mobileLnage select.gt_selector.notranslate {
+    display: none;
+}
+
+.logo a {
+    display: block;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(45deg, #af4288, #EEEEEE);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header-menu ul li a {
+    color: #fff !important;
+    font-size: 14px !important;
+}
+.top-right-header ul {
+    display: flex
+;
+    float: left !important;
+}
+.aboutCompany h1 {
+    text-align: center;
+        text-transform: uppercase;
+}
+.breadcrumb-area .title {
+    padding: 20px 0 !important;
+}
+.serviceFeatured {
+    background-color: #0da5c7;
+    padding: 50px 0;
+}
+.breadcrumb-area .title h1 {
+    color: white;
+    text-align: center;
+        font-size: 35px;
+}
+.aboutCompany p {
+    text-align: justify;
+}
+.titleLine {
+    width: 50px;
+    background-color: #000;
+    height: 1px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.OurMissonVison h1 {
+    text-transform: uppercase;
+}
+.title ul {
+    text-align: center;
+}
+.more p {
+    text-align: center;
+}
+
+.featuredGrid img {
+    margin: 0 auto;
+    width: 50px;
+    display: block;
+    padding-bottom: 29px;
+}
+.serviceFeatured h1 {
+    text-align: center;
+    color: #fff;
+}
+.ourSolutionsMain{
+    padding: 50px 0;
+}
+.ourSolutionsMain  h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.ourSolutionGird {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ourSolutionGird a {
+    background-color: #01aae8;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: 0.5s all;
+}
+.ourSolutionGird a:hover {
+    background-color: #ad2f38;
+    color: #fff;
+}
+.blogCompany h1{
+    text-align: center;
+}
+.aboutCompanyImage img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.missionVisonDiv {
+    background-color: #0da5c7;
+    padding: 20px;
+    height: 280px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.top-left-header ul {
+    float: right !important;
+}
+.missionVisonDiv h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.moreAboutLeft h5 {
+    font-size: 25px;
+    color: #EEEEEE;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.moreAboutRight img {
+    width: 100%;
+    border-radius: 20px;
+}
+.moreAboutLeft p {
+    text-align: justify;
+}
+
+.moreAbout {
+    background-color: #DDF0F5;
+    padding: 60px 0;
+}
+.aboutConuner h4 {
+    margin: 0;
+    color: #EEEEEE;
+    font-weight: bold;
+}
+.missionVisonDiv p {
+    text-align: justify;
+}
+.whyChooseUs {
+    padding: 60px 0;
+}
+
+.whyChooseUs h1 {
+    text-align: center;
+}
+
+.whyChooseUsLeft img {
+    width: 100%;
+}
+
+.whyChooseUsLeft p {
+    text-align: justify;
+    margin: 0;
+    padding-bottom: 34px;
+}
+.whyChooseUsLeft h4 {
+    font-size: 22px;
+    color: #EEEEEE;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.whyChoseUsRight {
+    margin-top: 30px;
+}
+.whyChooseUsGrid h4 {
+    color: #EEEEEE;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.whyChooseUsGrid {
+    border: 1px solid #EEEEEE;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+.whyChooseUsGrid i {
+    font-size: 35px;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+}
+.whyChooseUsGrid p {
+    margin: 0;
+}
+.ourCoreValues {
+    margin-top: 50px;
+}
+.ourCoreValues h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0da5c7;
+    font-weight: bold;
+}
+
+.ourCoreValues img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.aboutRight h6 {
+    font-size: 22px;
+    color: #444;
+    font-weight: bold;
+}
+
+.aboutRight h5 {
+    font-size: 25px;
+    color: #EEEEEE;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.impactJourneyBox {
+    background-color: #0da5c7;
+    padding: 20px;
+    height: 200px;
+    color: #fff;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.impactJourneyBox h5 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.impactJourneyBox p {
+    text-align: justify;
+}
+
+
+menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    margin-right: -8px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+
+
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    background: #DDDDDD;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 320px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    border-top: 2px solid #ad2f38;
+}
+
+.submenu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+   width: 100%;
+}
+
+
+.submenu li a {
+    font-size: 15px !important;
+    text-align: left;
+    padding: 10px !important;
+    text-transform: lowercase !important;
+    border-bottom: 1px solid lightgray;
+    line-height: 20px;
+}
+
+.ourProjectMain {
+    background-color: #0da5c7;
+    padding: 50px 0;
+}
+
+
+.menu-item:hover .submenu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+.projectGrid {
+    margin-bottom: 20px;
+}
+.projectImg img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.ourCustomerMian {
+    background-color: #f7f8fb;
+    padding: 50px 0;
+    margin-top: 50px;
+}
+
+.pageContent p {
+    text-align: justify;
+    font-size: 20px;
+    background-color: #fbfbf9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image a img {
+    transition: 0.5s all;
+}
+
+.blogGrid:hover .image a img {
+    transform: scale(1.1);
+}
+.teamPartHead {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.teamPartHead h4 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 17px;
+}
+.teamPartHead h5 {
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.teamRow {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px 2px #cbc9c9;
+}
+
+.teamRightPart h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 15px;
+}
+.profileImg img {
+    width: 100%;
+}
+.teamRightPart {
+    padding-top: 20px;
+}
+.teamRightPart p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.teamRightPart h6 {
+    font-weight: bold;
+}
+
+
+.packgeGrid {
+    border: 2px solid #EEEEEE;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.packgeGrid h4 {
+    color: #EEEEEE;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
+}
+.ourPackage h1 {
+    text-align: center;
+}
+.packgeGrid img {
+    display: block;
+    border-radius: 10px;
+}
+.ourPackage {
+    padding-bottom: 60px;
+}
+
+.packgeGrid ul li {
+    border-bottom: 1px dashed lightgray;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.priceBox h3 span {
+    font-size: 15px;
+}
+
+.priceBox h3 {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+}
+.priceBox {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+}
+.priceBox a {
+    background-color: #dda319;
+    color: #fff;
+    padding: 10px 20px;
+    transition: 0.5s all;
+}
+.packgeGrid ul li i {
+    color: #EEEEEE;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.packgeGrid ul {
+    margin-bottom: 30px;
+}
+.priceBox a:hover {
+    background-color: #EEEEEE;
+    color: #fff;
+}
+.vpPackgeBannerMain {
+    margin-bottom: 60px;
+}
+
+.vpBannerVg {
+     background-image: url(../images/almadina/al_hera-services-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ } 
+ 
+ .vpBannerOverly {
+        background-color: #1b7d75d4;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+    padding: 50px 0;
+}
+ .vpBannerContent h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.vpBannerContent h2 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.vpBannerContent ul li i {
+    color: #dda319;
+}
+.vpBannerContent ul {
+    text-align: center;
+}
+
+.vpBannerContent ul li {
+    display: inline-block;
+    color: #fff;
+    border-right: 1px dashed lightgray;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+ .buyNowLick a {
+    background: #dda319;
+    color: #fff;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    transition: 0.5s all;
+}
+.buyNowLick {
+    text-align: center;
+}
+.buyNowLick a:hover {
+    background-color: #EEEEEE;
+    color: #fff;
+}
+
+
+.testimonialMain {
+    background-color: #DDF0F5;
+    padding: 60px 0;
+}
+
+.testimonialMain h1 {
+    text-align: center;
+}
+
+.testimonialGrid h4 {
+    font-size: 20px;
+    text-align: right;
+    color: #EEEEEE;
+    font-weight: 600;
+}
+.testimonialGrid p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.testimonialGrid {
+    border: 1px solid #EEEEEE;
+    padding: 10px;
+    background-color: #DDDDDD;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
+}
+.faqmain {
+        padding-top: 60px;
+}
+.faqmain h1 {
+    text-align: center;
+}
+
+ .accordion {
+            width: 750px;
+            margin: 20px auto;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+.accordion-header {
+    padding: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.accordion-header i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+.accordion-content {
+    display: none;
+    padding: 15px;
+}
+
+.aboutRights h4 {
+    color: #EEEEEE;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.aboutRights {
+    margin-top: 35px;
+}
+.missionVissionLear {
+    background-color: #DDF0F5;
+    padding: 60px 0;
+}
+.missionVissionRightSide img {
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.missionVissionLeftSide p {
+    text-align: justify;
+}
+
+.missionVissionLeftSide h4 {
+    font-size: 30px;
+    color: #EEEEEE;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.compServiceMain {
+    padding: 100px 0;
+}
+.compServiceMain h3 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 50px;
+    font-size: 36px;
+}
+.compServiceBox {
+    margin-bottom: 20px;
+}
+.compServiceBox img {
+    background: #EEEEEE;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid #b5b310;
+}
+.compServiceBox h4 {
+    font-size: 18px;
+    color: #EEEEEE;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.meetFounderLeft h5 {
+    margin: 0;
+    padding-bottom: 20px;
+    color: #EEEEEE;
+    font-weight: 600;
+}
+
+.meetFounderLeft h3 {
+    color: #EEEEEE;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.meetFounderLeft p {
+    text-align: justify;
+}
+
+.meetFounderLeft a {
+    background: #dda319;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.5s all;
+}
+
+.meetFounderLeft a:hover {
+    background-color: #EEEEEE;
+    color: #fff;
+}
+.meetFounderRight img {
+    width: 69%;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid lightgray;
+}
+
+.membershipForm .form-select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.membershipForm .form-control {
+    margin-bottom: 10px;
+}
+.membershipForm .btn.btn-success {
+    width: 100%;
+    background: #dda319;
+    border-color: #dda319;
+}
+.membershipDivMain {
+    padding: 100px 0;
+}
+
+
+.circle {
+    width: 12px;
+    height: 12px;
+    background: #EEEEEE;
+    border-radius: 50%;
+    animation: zoomPulse 2s ease-in-out infinite;
+}
+
+
+@keyframes zoomPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.circelBox {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+
+.whyWork {
+    padding: 140px 0;
+    background-color: #f8f8f8;
+}
+.whyWorkBox {
+    background-color: #DDDDDD;
+    padding: 40px;
+    border-radius: 20px;
+}
+.whyWorkBox i {
+    width: 50px;
+    height: 50px;
+    background-color: #1a1a1a;
+    color: #EEEEEE;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.whyWorkBox h4 {
+    margin: 0;
+    padding-bottom: 12px;
+    font-size: 24px;
+}
+
+
+.whyWorkBox p {
+    margin: 0;
+    font-size: 15px;
+}
+.sectionTitle h1 {
+    font-size: 80px;
+    margin: 0;
+    padding-bottom: 80px;
+    line-height: 75px;
+}
+.circelBox span {
+    margin-left: 5px;
+    padding-right: 5px;
+}
+
+/* Circle dot: black on light backgrounds, light on dark sections */
+.circelBox .circle {
+    background: #000;
+}
+.ourProject .circelBox .circle,
+.ourServicePart .circelBox .circle,
+.footerWidgetArea .circelBox .circle,
+.traveling .circelBox .circle,
+.contactUsPageMain .circelBox .circle {
+    background: #EEEEEE;
+}
+
+.membershipForm {
+    background-color: #F9F9F9;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.membershipForm .form-label {
+    font-family: "Philosopher", sans-serif !important;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    display: block !important;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.carousel-fade .carousel-item.active {
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+}
+
+
+.carousel-item img {
+    transition: transform 8s ease;
+}
+.carousel-item.active img {
+    transform: scale(1.1); /* Zoom level */
+}
+
+.carousel-item.active img {
+    animation: zoomin 5s ease-in-out infinite alternate;
+}
+
+@keyframes zoomin {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 45%;
+    left: 14%;
+    width: 60%;
+}
+
+.carousel-caption h1 {
+    font-size: 70px;
+    text-align: left;
+}
+.carousel-caption p {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-transform: uppercase;
+}
+.carousel-caption .btn.btn-sm.btn-success {
+    float: left;
+    background: #e10419;
+    border-color: #e10419;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+
+#scrollTopBtn {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 999;
+    background-color: #EEEEEE;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+    background-color: #157347;
+}
+
+.main-header {
+    background: #000;
+    color: #fff;
+}
+
+.sticky-active {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mobileLang {
+    display: none !important;
+}
+.ourProject {
+    padding: 140px 0;
+    background-color: #000;
+}
+
+
+
+.projctGrid {
+    border: 1px solid #5c5454;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.projctGrid img {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+
+
+.projectHead a {
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #525050;
+    padding: 8px;
+    border-radius: 13px;
+    text-transform: uppercase;
+    transition: 0.5s all;
+}
+.projectHead a:hover {
+    background: #ffffff;
+    color: #000000;
+}
+.projectHead {
+    display: flex
+;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+}
+.projctGrid h4 {
+    font-size: 16px;
+}
+
+
+.workFlow {
+    padding: 140px 0;
+}
+
+
+
+.linkButton {
+    display: inline-block;
+    background-color: #EEEEEE;
+    color: #2F2F2F;
+    padding: 7px 20px;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.5s all;
+}
+
+.linkButton i {
+    margin-right: 5px;
+}
+
+.linkButton:hover {
+    background-color: unset;
+    color: #000;
+    border: 1px solid lightgray;
+}
+.workFlowTitle {
+    font-size: 70px !important;
+    padding-bottom: 40px !important;
+}
+.workFlowList h4 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.workFlowList {
+    border-bottom: 1px solid #000;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.workFlowList p {
+    margin: 0;
+    text-align: justify;
+}
+.ourServicePart {
+    background-color: #000;
+    padding: 140px;
+}
+.serviceBox i {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.serviceBox {
+    background-color: lightgray;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+
+.serviceLinkButton {
+    background-color: #DDDDDD;
+    color: #000;
+    padding: 7px  20px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.5s all;
+}
+.serviceLinkButton:hover {
+    background-color: #192908d9;
+    color: #ffff;
+    outline: 0;
+}
+.serviceLinkButton i {
+    font-size: 15px;
+    display: inline-block;
+    margin: 0;
+    margin-right: 5px;
+}
+.serviceBox ul li {
+    border-bottom: 1px solid #747171;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+.serviceBox ul li:last-child {
+  border-bottom: none;
+}
+
+.aboutPart {
+    padding: 140px 0;
+}
+
+.aboutUsBox img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.aboutHeading {
+    padding-bottom: 25px !important;
+}
+.aboutUsBox p {
+    font-size: 14px;
+}
+.aboutUsBox ul {
+    margin-top: 30px;
+}
+.aboutUsBox ul li {
+    display: inline-block;
+}
+.aboutUsBox ul li a {
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.5s all;
+    border: 1px solid #fff;
+}
+.aboutUsBox ul li a:hover {
+    background: #EEEEEE;
+    color: #000;
+}
+
+.aboutUsBox ul li a i {
+    font-size: 20px;
+}
+
+.homeCounterPart {
+    background-image: linear-gradient(180deg, #EEEEEE, #EEEEEE);
+    padding: 100px 0;
+}
+
+.homeConterBox h1 {
+    font-size: 80px;
+    margin: 0;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.homeConterBox {
+    padding: 30px;
+}
+
+.homeConterBox h6 {
+    margin: 0;
+    font-size: 25px;
+}
+.travelingGrid {
+    margin: 10px;
+}
+
+.awardBox i {
+    font-size: 25px;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.awardBox p {
+    margin: 0;
+}
+
+.awardBox h5 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.reviwrInfo img {
+     width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 14px;
+    border: 1px solid #818080;
+    padding: 5px;
+}
+
+.reviwrInfo {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #786f6f;
+    padding-top: 20px;
+}
+
+
+.testimonial {
+    padding: 140px 0;
+    background-color: #000;
+}
+
+
+.testimonialBox {
+    padding: 40px;
+    color: #fff;
+    background-color: #1a1a1a;
+    border-radius: 20px;
+}
+.testimonalText {
+    margin: 0;
+    padding: 20px 0;
+    height: 200px;
+    font-size: 14px;
+}
+.reviwrInfo h5 {
+    margin: 0;
+    font-size: 16px;
+}
+.reviwrInfo p {
+    font-size: 14px;
+    margin: 0;
+}
+.reting i {
+    color: #EEEEEE;
+}
+.footerText {
+    background-color: #111111;
+    padding: 80px 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+.footerWidgetArea p {
+    font-size: 30px;
+    color: #fff;
+}
+.footerWidgetArea p a {
+    color: #fff;
+}
+
+.footerWidgetArea {
+    background-color: #1a1a1a !important;
+}
+
+.cory-right-section {
+    background-color: #1a1a1a !important;
+}
+
+.copyright a {
+    color: #EEEEEE !important;
+}
+.aboutPart h2 {
+    font-size: 200px;
+    text-transform: uppercase;
+}
+.aboutUsPage img {
+    margin: 0;
+    width: 80%;
+}
+.workExperiance {
+    padding: 100px 0;
+}
+.workExpList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.workExpTitle h4 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.workExpInfo p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.workExpInfo h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.workExpInfo {
+    text-align: right;
+}
+.traveling {
+    padding: 100px 0;
+    background-color: #000;
+    color: #fff;
+}
+.travelingGrid img {
+    border-radius: 20px;
+    display: block;
+}
+.designPhiloshophy {
+    padding: 100px 0;
+     background-color: #f8f8f8;
+}
+.desingPhiRight ul li i {
+    color: #EEEEEE;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.desingPhiRight ul li {
+    margin-bottom: 7px;
+}
+.awardBox {
+    background-color: #DDDDDD;
+    margin: 0px 0px 0px 0px;
+    padding: 24px 24px 24px 24px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 12px 42px 0px rgba(46.99999999999997, 46.99999999999997, 46.99999999999997, 0.06);
+}
+.award {
+    margin-top: 70px;
+}
+
+
+
+.travel-slider .slick-prev, .slick-next {
+    position: absolute !important;
+    top: 50% !important;
+    background-color: #EEEEEE !important;
+    z-index: 99 !important;
+    border-radius: 50% !important;
+    width: 45px !important;
+    height: 45px !important;
+}
+
+.travel-slider .slick-prev {
+    left: 0 !important;
+}
+
+.travel-slider .slick-next {
+    right: 0px !important;
+}
+
+.contactUsPageMain {
+    padding: 140px 0;
+    background-color: #000;
+    color: #fff;
+}
+.contactUsPageMain h2 {
+    font-size: 200px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.contactUsForm .form-control {
+    background-color: #1a1a1a !important;
+    border: 2px solid #1a1a1a;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+.contactUsForm .form-control::placeholder {
+    font-size: 14px; 
+}
+.contactSubmit {
+    background-color: #EEEEEE;
+    border: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.contactUsForm .form-control:focus {
+    border: 2px solid !important;
+    border-color: #EEEEEE !important;
+}
+.contactUsForm .form-label span {
+    color: red;
+}
+.contactMe {
+    margin-top: 100px;
+}
+
+.contactMeBox {
+    background-color: #1a1a1a;
+    padding: 20px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactMeBox span {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contactMeBox p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contactMeBox ul {
+    display: block;
+}
+.contactMeBox ul li {
+    display: inline-block;
+}
+
+.contactMeBox ul li a {
+    width: 50px;
+    height: 50px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color: #000;
+    margin-right: 10px;
+    transition: 0.5s all;
+}
+.contactMeBox ul li a:hover {
+    background-color: #b6fa80;
+}
+.contactFaq {
+    padding: 140px 0;
+}
+
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.faq-question {
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+.faq-question .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 24px;
+    transition: 0.3s;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.faq-answer {
+  display: none;
+  padding-top: 10px;
+  color: #444;
+}
+
+.faq-question h5 {
+    margin: 0;
+    font-weight: 300;
+}
+
+.projectTab .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: unset;
+    border: none;
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+}
+.projectTab  .nav-pills .nav-link {
+    border-radius: 0;
+    background-color: unset;
+    color: #4f4f4f;
+    border: none;
+    font-size: 25px;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.projectTab .nav {
+    padding-bottom: 60px;
+}
+.servicePageMain {
+    padding: 140px 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.servicePageMain {}
+
+.servicePageMain h2 {
+    font-size: 200px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 50px;
+}
+.serviceRow {
+    background-color: #1a1a1a;
+    padding: 60px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.serviceRowRight img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+.ServicePriceLink {
+    background-color: #EEEEEE;
+    color: #000;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+.serviceRowLeft ul li a {
+    color: #fff;
+    display: block;
+    border-bottom: 1px solid #514747;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.serviceRowLeft ul li:last-child a {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.serviceRowLeft h3 {
+    font-size: 32px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.blogPageMain {
+    padding: 140px 0;
+    background-color: #000;
+    color: #fff;
+}
+.blogPageMain h2 {
+    font-size: 200px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.blog-content h5 a {
+    color: #fff !important;
+}
+
+
+
+
+/*responsive design mobile device css start*/
+
+@media only screen and (max-width: 767px) {
+    .contactUsPageMain h2 {
+        padding-bottom: 20px;
+    }
+    .workFlowTitle {
+        padding-bottom: 20px !important;
+    }
+    .ourServicePart {
+        padding: 20px;
+    }
+    .serviceBox {
+        padding: 20px 20px;
+        margin-bottom: 20px;
+    }
+    .contactUsPageMain h2 {
+        font-size: 40px;
+    }
+    .projectTab .nav-pills .nav-link {
+        font-size: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    .servicePageMain h2 {
+        font-size: 40px;
+    }
+        
+    
+    header .toggle span, header .toggle span::before, header .toggle span::after {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 2px !important;
+    background: #DDDDDD !important;
+    transition: all 0.25s ease;
+}
+.sectionTitle h1 {
+    font-size: 35px !important;
+    padding-bottom: 30px;
+    line-height: 40px;
+}
+.footerText {
+    padding: 20px 10px;
+}
+.contactUsPageMain {
+    padding: 50px 0;
+}
+.whyWork {
+    padding: 40px 0;
+}
+    .mobileLang {
+    display: none !important;
+}
+.contactMeBox {
+    margin-bottom: 20px;
+}
+ .mobileLnage select.gt_selector.notranslate {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    z-index: 999;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 50%;
+    background-color: #EEEEEE;
+}
+.whyWorkBox {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.ourProject {
+    padding: 40px 0;
+}
+.workFlow {
+    padding: 40px 0;
+}
+.aboutPart {
+    padding: 40px 0;
+}
+.aboutUsBox img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.homeCounterPart {
+    padding: 40px 0;
+}
+.testimonial {
+    padding: 40px 0;
+}
+.testimonialBox {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.aboutPart h2 {
+    font-size: 40px;
+}
+.servicePageMain {
+    padding: 40px 0;
+}
+.serviceRow {
+    padding: 20px;
+}
+.serviceRowLeft {
+    margin-bottom: 20px;
+}
+.workExperiance {
+    padding: 40px 0;
+}
+.designPhiloshophy {
+    padding: 40px 0;
+}
+.awardBox {
+    margin-bottom: 20px !important;
+}
+.contactFaq {
+    padding: 40px 0;
+}
+.projectTab .nav {
+    padding-bottom: 20px;
+}
+.homeConterBox {
+    padding: 0px;
+}
+    .meetFounderRight {
+        margin-top: 20px;
+    }
+    .accordion {
+        width: 100%;
+    }
+    .mailLink {
+        display: none;
+    }
+    .logo a img {
+        width: 60px;
+    }
+    .toggle {
+        margin-top: 10px;
+    }
+    .logo a {
+        display: block;
+        margin-top: 8px;
+        font-size: 16px;
+    }
+    .membershipDivMain {
+        padding: 20px 0;
+    }
+    header .toggle {
+        top: 15px !important;
+    }
+    header .toggle {
+        position: fixed !important;
+    }
+    .aboutConuner p {
+        text-align: left;
+        font-size: 14px;
+    }
+    .languagePart select.gt_selector.notranslate {
+    display: block;
+    width: 22%;
+    bottom: 40px;
+    left: 40px;
+    z-index: 9999;
+    position: fixed;
+    background-color: #EEEEEE;
+    color: #fff;
+    font-size: 11px;
+    padding: 4px 0;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 8px auto;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+}
+/*responsive design mobile device css end*/
+
+/* ===== Header navigation (professional) ===== */
+.main-header {
+    background: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.main-header.sticky-active {
+    background-color: rgba(0, 0, 0, 0.92);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
+}
+.main-header .logo a {
+    margin-top: 0;
+    padding: 14px 0;
+}
+.header-nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 28px;
+}
+.main-header .header-menu ul.menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-header .header-menu ul.menu > li.menu-item {
+    margin-right: 0;
+}
+.main-header .header-menu ul.menu > li > a {
+    position: relative;
+    padding: 30px 16px !important;
+    font-size: 11px !important;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.85) !important;
+    transition: color 0.25s ease;
+}
+.main-header .header-menu ul.menu > li > a::after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 22px;
+    height: 2px;
+    background: #EEEEEE;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+}
+.main-header .header-menu ul.menu > li:hover > a,
+.main-header .header-menu ul.menu > li.active > a {
+    color: #fff !important;
+}
+.main-header .header-menu ul.menu > li:hover > a::after,
+.main-header .header-menu ul.menu > li.active > a::after {
+    transform: scaleX(1);
+}
+
+/* Dropdown */
+.main-header .submenu {
+    background: #111;
+    border-top: 0;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 8px 0;
+    width: 260px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+}
+.main-header .submenu li {
+    border-bottom: 0;
+}
+.main-header .submenu li a {
+    color: rgba(255, 255, 255, 0.8) !important;
+    border-bottom: 0;
+    text-transform: capitalize !important;
+    padding: 10px 18px !important;
+    font-size: 14px !important;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.main-header .submenu li a:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff !important;
+}
+
+/* Call Now button */
+.headerCallBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    padding: 6px 8px;
+    border-radius: 50px;
+    background: #fff;
+    color: #000 !important;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    white-space: nowrap;
+    border: 1px solid #fff;
+    transition: background-color 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+.headerCallBtn i {
+    font-size: 13px;
+}
+.headerCallBtn:hover {
+    background: transparent;
+    color: #fff !important;
+    transform: translateY(-1px);
+}
+
+@media only screen and (max-width: 1199px) {
+    .header-nav-wrap {
+        gap: 16px;
+    }
+    .main-header .header-menu ul.menu > li > a {
+        padding: 30px 10px !important;
+        letter-spacing: 0.5px;
+    }
+    .main-header .header-menu ul.menu > li > a::after {
+        left: 10px;
+        right: 10px;
+    }
+    .headerCallBtn {
+        padding: 10px 16px;
+    }
+}
+
+.main-header .submenu li.submenuViewAll {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    margin-top: 6px;
+    padding-top: 6px;
+}
+.main-header .submenu li.submenuViewAll a {
+    color: #fff !important;
+    font-weight: 600;
+}
+.main-header .submenu li.submenuViewAll a i {
+    font-size: 12px;
+    margin-left: 6px;
+}
+.main-header .header-menu ul.menu > li.has-dropdown > a::before {
+    content: "\f107";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 11px;
+    position: absolute;
+    right: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.7;
+}
+.main-header .header-menu ul.menu > li.has-dropdown > a {
+    padding-right: 20px !important;
+}
+
+
+/* ===== Products pages ===== */
+.productSection {
+    padding: 80px 0;
+}
+.productSectionTitle {
+    margin-bottom: 40px;
+}
+.productSectionTitle h2 {
+    font-size: 38px;
+    font-weight: 700;
+    color: #111;
+}
+.productEmpty {
+    text-align: center;
+    color: #777;
+    padding: 40px 0;
+}
+
+/* Category card */
+.productCtgCard {
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ececec;
+    text-decoration: none !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.productCtgCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+}
+.productCtgImg {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.productCtgImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.productCtgCard:hover .productCtgImg img {
+    transform: scale(1.06);
+}
+.productCtgBody {
+    position: relative;
+    padding: 20px 70px 22px 22px;
+}
+.productCtgBody h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+    margin: 0 0 4px;
+}
+.productCtgCount {
+    font-size: 14px;
+    color: #777;
+}
+.productCtgArrow {
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    transition: transform 0.3s ease;
+}
+.productCtgCard:hover .productCtgArrow {
+    transform: translateY(-50%) rotate(-45deg);
+}
+
+/* Sub category filter */
+.productCtgDesc {
+    margin-bottom: 30px;
+    color: #555;
+}
+.productSubCtgs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+.productSubCtgs a {
+    padding: 8px 20px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    color: #222;
+    font-size: 14px;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+}
+.productSubCtgs a:hover,
+.productSubCtgs a.active {
+    background: #000;
+    border-color: #000;
+    color: #fff;
+}
+
+/* Product card */
+.productCard {
+    margin-bottom: 30px;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ececec;
+    height: calc(100% - 30px);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.productCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+}
+.productCardImg {
+    display: block;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    background: #f4f4f4;
+}
+.productCardImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+.productCard:hover .productCardImg img {
+    transform: scale(1.06);
+}
+.productCardBody {
+    padding: 20px 22px 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.productCardBody h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+.productCardBody h3 a {
+    color: #111;
+    text-decoration: none !important;
+}
+.productCardBody p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+}
+.productCardLink {
+    margin-top: auto;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.productCardLink i {
+    margin-left: 6px;
+    transition: transform 0.25s ease;
+}
+.productCardLink:hover i {
+    transform: translateX(4px);
+}
+
+/* Product details */
+.productMainImg {
+    display: block;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #f4f4f4;
+    border: 1px solid #ececec;
+}
+.productMainImg img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.productThumbs {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 12px;
+}
+.productThumbs a {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+}
+.productThumbs img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.productInfo {
+    padding-left: 20px;
+}
+.productInfoCtg {
+    display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777 !important;
+    margin-bottom: 10px;
+}
+.productInfo h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 16px;
+}
+.productInfoShort {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.productInfoActions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 28px;
+}
+.productCallBtn {
+    background: #000;
+    border-color: #000;
+    color: #fff !important;
+}
+.productCallBtn:hover {
+    background: #fff;
+    color: #000 !important;
+}
+.productEnquiryBtn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 22px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    color: #000 !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-decoration: none !important;
+    transition: all 0.25s ease;
+}
+.productEnquiryBtn:hover {
+    background: #000;
+    color: #fff !important;
+}
+.productDescription {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid #ececec;
+}
+.productDescription h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+    .productSection {
+        padding: 40px 0;
+    }
+    .productInfo {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .productInfo h2,
+    .productSectionTitle h2 {
+        font-size: 28px;
+    }
+}
