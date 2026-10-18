@@ -1,6 +1,21 @@
 @extends(adminTheme().'layouts.app') @section('title')
 <title>{{websiteTitle('Dashboard')}}</title>
-@endsection @section('contents')
+@endsection @push('css')
+<style>
+    .yg-products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:28px}
+    .yg-product{display:flex;align-items:center;gap:12px;min-width:0;padding:10px 6px;border-bottom:1px solid var(--yg-border);border-radius:var(--yg-radius-sm);color:var(--yg-text);text-decoration:none;transition:background .2s}
+    .yg-product:hover{background:var(--yg-primary-50);color:var(--yg-text);text-decoration:none}
+    .yg-product img{flex:0 0 44px;width:44px;height:44px;border-radius:10px;object-fit:cover;background:var(--yg-bg);border:1px solid var(--yg-border)}
+    .yg-product-body{flex:1;min-width:0}
+    .yg-product-body b{display:block;font-weight:600;font-size:13.5px;line-height:1.3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .yg-product-meta{display:flex;align-items:center;gap:8px;margin-top:3px;font-size:11.5px;color:var(--yg-muted);white-space:nowrap;overflow:hidden}
+    .yg-product-meta .ctg{background:var(--yg-primary-50);color:var(--yg-primary);padding:1px 8px;border-radius:20px;font-weight:600;overflow:hidden;text-overflow:ellipsis;max-width:150px}
+    .yg-product .badge{flex:0 0 auto;font-size:10.5px}
+    .yg-product .go{flex:0 0 28px;width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--yg-muted);font-size:12px;transition:.2s}
+    .yg-product:hover .go{background:var(--yg-primary);color:#fff}
+    @media (max-width:767px){ .yg-products{grid-template-columns:1fr} }
+</style>
+@endpush @section('contents')
 @php
     $per = json_decode(optional(Auth::user()->permission)->permission ?? '[]', true) ?: [];
     $hour = (int) now()->format('G');
@@ -13,7 +28,7 @@
         <div>
             <span class="yg-date"><i class="fa-regular fa-calendar"></i> {{ now()->format('l, d F Y') }}</span>
             <h2>{{ $greeting }}, {{ Str::limit(Auth::user()->name, 24) }} 👋</h2>
-            <p>Here's an overview of your website content. Keep services, projects and testimonials up to date.</p>
+            <p>Here's an overview of your website content. Keep products, pages and sliders up to date.</p>
         </div>
         <div class="yg-welcome-actions">
             <a href="{{ route('index') }}" target="_blank" class="btn btn-ghost"><i class="fa-solid fa-globe mr-50"></i> View Website</a>
@@ -31,7 +46,7 @@
         </a>
         <a href="{{ route('admin.products') }}" class="yg-stat">
             <span class="yg-stat-icon c2"><i class="fas fa-box-open"></i></span>
-            <div><h3>{{ $totals['projects'] }}</h3><p>Projects</p></div>
+            <div><h3>{{ $totals['projects'] }}</h3><p>Products</p></div>
         </a>
         <a href="{{ route('admin.posts') }}" class="yg-stat">
             <span class="yg-stat-icon c3"><i class="fas fa-file-alt"></i></span>
@@ -69,7 +84,7 @@
                         <div class="yg-quick">
                             @isset($per['services']['add'])
                             <a href="{{ route('admin.servicesAction','create') }}"><i class="fas fa-stream"></i> Service</a>
-                            <a href="{{ route('admin.productsAction','create') }}"><i class="fas fa-box-open"></i> Project</a>
+                            <a href="{{ route('admin.productsAction','create') }}"><i class="fas fa-box-open"></i> Product</a>
                             @endisset
                             @isset($per['posts']['add'])
                             <a href="{{ route('admin.postsAction','create') }}"><i class="fas fa-pen"></i> Blog Post</a>
@@ -98,55 +113,34 @@
             </div>
         </div>
 
-        <!-- Recent services -->
-        <div class="col-xl-4 col-lg-6">
+        <!-- Recent products -->
+        <div class="col-xl-8 col-lg-12">
             <div class="card">
                 <div class="card-header">
-                    <h4 class="card-title">Recent Services <a href="{{ route('admin.services') }}" class="yg-card-link">View all <i class="fa fa-chevron-right"></i></a></h4>
+                    <h4 class="card-title">Recent Products <a href="{{ route('admin.products') }}" class="yg-card-link">View all <i class="fa fa-chevron-right"></i></a></h4>
                 </div>
                 <div class="card-content">
                     <div class="card-body">
-                        <ul class="yg-list">
-                            @forelse($recentServices as $item)
-                            <li>
-                                <img src="{{ asset($item->image()) }}" alt="{{ $item->name }}">
-                                <div class="yg-list-body">
-                                    <a href="{{ route('admin.servicesAction',['edit',$item->id]) }}">{{ $item->name ?: 'Untitled' }}</a>
-                                    <span>{{ $item->created_at->format('d M Y') }}</span>
-                                </div>
+                        @if($recentProducts->count())
+                        <div class="yg-products">
+                            @foreach($recentProducts as $item)
+                            <a href="{{ route('admin.productsAction',['edit',$item->id]) }}" class="yg-product" title="Edit {{ $item->name }}">
+                                <img src="{{ asset($item->image()) }}" alt="{{ $item->name }}" loading="lazy">
+                                <span class="yg-product-body">
+                                    <b>{{ $item->name ?: 'Untitled' }}</b>
+                                    <span class="yg-product-meta">
+                                        @php $ctgName = optional($item->productCategories->first())->name ?: 'No category'; @endphp<span class="ctg" title="{{ $ctgName }}">{{ $ctgName }}</span>
+                                        <span>{{ $item->created_at->format('d M Y') }}</span>
+                                    </span>
+                                </span>
                                 <span class="badge {{ $item->status=='active' ? 'badge-success' : 'badge-danger' }}">{{ ucfirst($item->status) }}</span>
-                            </li>
-                            @empty
-                            <li class="yg-empty">No services yet</li>
-                            @endforelse
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Recent projects -->
-        <div class="col-xl-4 col-lg-6">
-            <div class="card">
-                <div class="card-header">
-                    <h4 class="card-title">Recent Projects <a href="{{ route('admin.products') }}" class="yg-card-link">View all <i class="fa fa-chevron-right"></i></a></h4>
-                </div>
-                <div class="card-content">
-                    <div class="card-body">
-                        <ul class="yg-list">
-                            @forelse($recentProjects as $item)
-                            <li>
-                                <img src="{{ asset($item->image()) }}" alt="{{ $item->name }}">
-                                <div class="yg-list-body">
-                                    <a href="{{ route('admin.productsAction',['edit',$item->id]) }}">{{ $item->name ?: 'Untitled' }}</a>
-                                    <span>{{ $item->created_at->format('d M Y') }}</span>
-                                </div>
-                                <span class="badge {{ $item->status=='active' ? 'badge-success' : 'badge-danger' }}">{{ ucfirst($item->status) }}</span>
-                            </li>
-                            @empty
-                            <li class="yg-empty">No projects yet</li>
-                            @endforelse
-                        </ul>
+                                <span class="go"><i class="fa-solid fa-pen"></i></span>
+                            </a>
+                            @endforeach
+                        </div>
+                        @else
+                        <ul class="yg-list"><li class="yg-empty">No products yet</li></ul>
+                        @endif
                     </div>
                 </div>
             </div>

@@ -178,10 +178,9 @@ class AdminController extends Controller
             'sliders'=>Attribute::where('type',1)->where('status','<>','temp')->whereNotNull('parent_id')->count(),
             'users'=>$userTotal,
         ];
-        $recentServices=Post::latest()->where('type',3)->where('status','<>','temp')->limit(5)->get(['id','name','slug','status','created_at']);
-        $recentProjects=Post::latest()->where('type',2)->where('status','<>','temp')->limit(5)->get(['id','name','slug','status','created_at']);
+        $recentProducts=Post::latest()->where('type',2)->where('status','<>','temp')->with(['imageFile','productCategories'])->limit(8)->get(['id','name','slug','status','created_at']);
         
-        return view(adminTheme().'dashboard',compact('posts','reports','totals','recentServices','recentProjects'));
+        return view(adminTheme().'dashboard',compact('posts','reports','totals','recentProducts'));
       
     }
 
