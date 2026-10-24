@@ -99,7 +99,8 @@
     .zf-track{display:flex;width:max-content;animation:zfMarquee 40s linear infinite}
     .zf-process:hover .zf-track{animation-play-state:paused}
     @keyframes zfMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-    .zf-proc{flex:0 0 auto;width:max(20vw,300px);padding:18px 18px 22px;border-right:1px solid #e5e5e5}
+    .zf-proc{flex:0 0 auto;width:max(20vw,300px);padding:18px 18px 22px;border-right:1px solid #e5e5e5;display:block;color:inherit;text-decoration:none}
+    a.zf-proc:hover h4{color:#e2231a}
     @media (prefers-reduced-motion:reduce){ .zf-track{animation:none} .zf-process{overflow-x:auto} }
     .zf-proc .img{height:235px;overflow:hidden}
     .zf-proc .img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
@@ -205,8 +206,6 @@
         .zf-proc{width:270px}
         .zf-track{animation-duration:30s}
         .zf-cert h2{font-size:38px}
-        .zf-cert-logos{gap:30px}
-        .zf-cert-logos .logo{height:80px}
         .zf-cta{padding:30px 20px}
     }
 </style>
@@ -225,6 +224,11 @@
         ['QA And QC', 'Experienced QA & QC Team', '1558171813-4c088753af8f'],
         ['Production', 'Experienced Production Team', '1581091226825-a6a2a5aee158'],
     ];
+    // Process cards link to the matching page under the "Services" header menu (matched by name)
+    $zfServicesMenu = optional(menu('Header Menus'))->subMenus?->first(fn($m) => mb_strtolower(trim($m->menuName())) == 'services');
+    $zfServiceLinks = $zfServicesMenu
+        ? $zfServicesMenu->subMenus->mapWithKeys(fn($s) => [mb_strtolower(trim($s->menuName())) => asset($s->menuLink())])->all()
+        : [];
     $zfStats = [
         ['fa-solid fa-globe', null, '40+', 'Trusted<br>Clients'],
         ['fa-solid fa-truck-fast', 'More Then', '5000', 'Shipments'],
@@ -270,8 +274,13 @@
             ['1604176354204-9268737828e4', 'Textile Brand In Market Since 2010', 'Textile Products And Apparel<br>Sourcing Industry'],
             ['1605518216938-7c31b7b14ad0', 'Woven, Denim, Knit &amp; Sweater', 'Best Quality Garments<br>For Global Buyers'],
             ['1523381210434-271e8be1f52b', 'Trusted RMG Sourcing And Exporter', 'From Development To<br>On Time Delivery'],
-        ])->map(fn($s) => ['image' => $zfImg($s[0], 1920), 'tag' => $s[1], 'title' => $s[2], 'btnText' => $zfShort.' Company Profile', 'btnLink' => '#about']);
+        ])->map(fn($s) => ['image' => $zfImg($s[0], 1920), 'tag' => $s[1], 'title' => $s[2], 'btnText' => $zfShort.' Company Profile', 'btnLink' => 'files/s-plus-company-profile.pdf']);
     }
+    // Slider button links may be a site path like "files/x.pdf"; PDFs open in a new tab
+    $zfSlides = $zfSlides->map(fn($s) => array_merge($s, [
+        'btnLink' => preg_match('#^(https?:|mailto:|tel:|\#|/)#i', $s['btnLink']) ? $s['btnLink'] : asset($s['btnLink']),
+        'btnNewTab' => (bool) preg_match('#\.pdf$#i', parse_url($s['btnLink'], PHP_URL_PATH) ?? ''),
+    ]));
 @endphp
 <section class="zf-hero">
     <noscript><style>.zf-slide:first-of-type{opacity:1;visibility:visible}.zf-slide:first-of-type .zf-anim{opacity:1;transform:none}</style></noscript>
@@ -287,7 +296,7 @@
                 <h2 class="zf-anim d2">{!! $s['title'] !!}</h2>
                 @endif
                 <div class="zf-hero-actions">
-                    @if($s['btnText'])<a href="{{ $s['btnLink'] }}" class="zf-btn zf-anim up d3">{{ $s['btnText'] }}</a>@endif
+                    @if($s['btnText'])<a href="{{ $s['btnLink'] }}" class="zf-btn zf-anim up d3" @if($s['btnNewTab']) target="_blank" rel="noopener" @endif>{{ $s['btnText'] }}</a>@endif
                     <i class="ti ti-needle-thread zf-anim up d4" aria-hidden="true"></i>
                     <i class="ti ti-shirt zf-anim up d4" aria-hidden="true"></i>
                 </div>
@@ -314,7 +323,7 @@
                 <p>{{ $zfName }} is a leading multinational apparel buying hub, sourcing company, sourcing and committed exporter on woven, denim, knit, sweater etc. We sourcing best quality garments for all of our internationally reputed buyers/importers and departmental chain stores from US, RU, EU, etc. markets. Since our establishment, we have developed long term trade relationships with most of our potential customers &amp; earned trust in their respective markets.</p>
                 <a href="#quality" class="zf-more">View More</a>
             </div>
-            <div class="zf-about-img"><img src="{{ $zfImg('1586363104862-3a5e2ab60d99', 900) }}" alt="{{ $zfName }}" loading="lazy"></div>
+            <div class="zf-about-img"><img src="{{ asset('images/splus-about.webp') }}" alt="{{ $zfName }}" loading="lazy"></div>
         </div>
         <div class="zf-stats">
             <span class="zf-sub">{{ $zfName }}</span>
@@ -344,11 +353,12 @@
         <div class="zf-track">
             @foreach([0, 1] as $copy)
             @foreach($zfProcess as $p)
-            <div class="zf-proc" @if($copy) aria-hidden="true" @endif>
+            @php $pLink = $zfServiceLinks[mb_strtolower($p[0])] ?? null; @endphp
+            <{{ $pLink ? 'a' : 'div' }} class="zf-proc" @if($pLink) href="{{ $pLink }}" @endif @if($copy) aria-hidden="true" tabindex="-1" @endif>
                 <div class="img"><img src="{{ $zfImg($p[2], 600) }}" alt="{{ $copy ? '' : $p[0] }}"></div>
                 <h4>{{ $p[0] }} <i class="ti ti-arrow-up-right"></i></h4>
                 <p>{{ $p[1] }}</p>
-            </div>
+            </{{ $pLink ? 'a' : 'div' }}>
             @endforeach
             @endforeach
         </div>
@@ -421,9 +431,9 @@
 
 <!-- ================= Certifications ================= -->
 <section class="zf-cert">
-    <div class="zf-center">
+    <div class="zf-wrap zf-center">
         <h2>Certifications</h2>
-        @include(welcomeTheme().'layouts.includes.certLogos')
+        @include(welcomeTheme().'layouts.includes.certDocs')
     </div>
 </section>
 

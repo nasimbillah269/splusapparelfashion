@@ -47,7 +47,7 @@
     <div class="container">
         <div class="tx-footer-grid">
             <div class="tx-footer-about">
-                <a href="{{route('index')}}" class="zh-logo tx-footer-logo"><span class="zh-logo-mark">S+</span><span class="zh-logo-text">S Plus Apparel Fashion</span></a>
+                <a href="{{route('index')}}" class="zh-logo tx-footer-logo">@if(general()->logo)<img src="{{ asset(general()->logo()) }}" alt="{{ general()->title }}" class="zh-logo-img">@else<span class="zh-logo-mark">S+</span>@endif<span class="zh-logo-text">S Plus Apparel Fashion</span></a>
                 <p>S Plus Apparel Fashion is a leading apparel buying hub, sourcing company and committed exporter on woven, denim, knit, sweater etc.</p>
                 <div class="tx-social">
                     <a href="{{ general()->facebook_link ?: '#' }}" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>

@@ -32,6 +32,9 @@
     .zh-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
     .zh-logo-mark{width:56px;height:56px;flex:0 0 56px;border-radius:50%;background:#e2231a;display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Teko',sans-serif;font-size:30px;line-height:1;padding-top:4px;box-shadow:inset 0 0 0 4px #2a2b30,0 0 0 2px #e2231a}
     .zh-logo-text{font-family:'Teko',sans-serif;color:#e2231a;font-size:30px;font-weight:600;letter-spacing:.5px;font-variant:small-caps;line-height:1;white-space:nowrap}
+    .zh-logo-img{width:125px;height:135px;flex:0 0 125px;object-fit:contain}
+    /* footer: undo techwix.css's 52px white-filtered footer logo */
+    .tx-footer-logo .zh-logo-img{width:125px;height:135px;filter:none}
     .zh-nav{display:flex;align-items:center;gap:45px}
     .zh-menu{display:flex;list-style:none;margin:0;padding:0;gap:30px}
     .zh-menu > li{position:relative}
@@ -69,8 +72,7 @@
         .zh-nav{justify-content:space-between;gap:24px}
         .zh-menu{flex:1;justify-content:center;gap:22px}
         .zh-menu > li > a{font-size:19px}
-        .zh-logo-mark{width:48px;height:48px;flex-basis:48px;font-size:26px}
-        .zh-logo-text{font-size:25px}
+        .zh-logo-mark{width:48px;height:48px;flex-basis:48px;font-size:26px}        .zh-logo-text{font-size:25px}
         .zh-call{gap:10px}
         .zh-call i{font-size:24px}
     }
@@ -100,6 +102,7 @@
     @media (max-width:767px){
         .zh-top{display:none}
         .zh-logo-mark{width:44px;height:44px;flex-basis:44px;font-size:22px}
+        .zh-logo-img{width:48px;height:48px;flex-basis:48px}
         .zh-logo-text{font-size:21px}
     }
 </style>
@@ -135,7 +138,8 @@
 
 <header class="zh-header" id="txHeader">
     <div class="zh-in">
-        <a href="{{route('index')}}" class="zh-logo"><span class="zh-logo-mark">S+</span><span class="zh-logo-text">S Plus Apparel Fashion</span></a>
+        {{-- Logo icon from Admin > Settings > Logo; the "S+" mark shows until one is uploaded --}}
+        <a href="{{route('index')}}" class="zh-logo">@if(general()->logo)<img src="{{ asset(general()->logo()) }}" alt="{{ general()->title }}" class="zh-logo-img">@else<span class="zh-logo-mark">S+</span>@endif<span class="zh-logo-text">S Plus Apparel Fashion</span></a>
 
         <!-- Mobile menu backdrop: click outside the panel to close -->
         <div class="zh-overlay" id="txNavOverlay" onclick="txToggleNav(false)"></div>

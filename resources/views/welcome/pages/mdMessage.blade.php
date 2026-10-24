@@ -44,6 +44,9 @@
     .zf-md-card{background:#2a2b30;color:#fff;padding:22px 28px;margin:-1px 0 0 25px;border-left:4px solid #e2231a}
     .zf-md-card h4{color:#fff;font-size:30px}
     .zf-md-card small{color:#b5b5b5;font-size:13px;text-transform:uppercase;letter-spacing:.5px}
+    .zf-md-phone{display:block;margin-top:6px;color:#fff;font-size:15px;text-decoration:none}
+    .zf-md-phone i{color:#e2231a;margin-right:6px}
+    .zf-md-phone:hover{color:#e2231a}
     .zf-md-social{display:flex;gap:8px;margin-top:14px}
     .zf-md-social a{width:34px;height:34px;display:flex;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.25);color:#fff;text-decoration:none;transition:.3s}
     .zf-md-social a:hover{background:#e2231a;border-color:#e2231a}
@@ -109,11 +112,12 @@
 @php
     $zfName = 'S Plus Apparel Fashion';
     $zfImg = fn($id, $w = 1200) => 'https://images.unsplash.com/photo-'.$id.'?auto=format&fit=crop&w='.$w.'&q=75';
-    // Short Description: line 1 = MD name, line 2 = designation
+    // Short Description: line 1 = name, line 2 = designation, line 3 = phone (optional)
     $mdLines = array_values(array_filter(array_map('trim', preg_split('/\r\n|\r|\n/', strip_tags((string) $page->short_description)))));
-    $mdName = $mdLines[0] ?? 'Managing Director';
-    $mdRole = $mdLines[1] ?? 'Managing Director, '.$zfName;
-    $mdPhoto = $page->imageFile ? asset($page->image()) : $zfImg('1560250097-0b93528c311a', 800);
+    $mdName = $mdLines[0] ?? 'Proprietor';
+    $mdRole = $mdLines[1] ?? 'Proprietor, '.$zfName;
+    $mdPhone = $mdLines[2] ?? null;
+    $mdPhoto = $page->imageFile ? asset($page->image()) : asset('images/proprietor.jpg');
     $zfBanner = $page->bannerFile ? asset($page->banner()) : $zfImg('1558769132-cb1aea458c5e', 1920);
     $zfPromise = [
         ['ti ti-award', 'Quality First', 'Every order checked to 2.5 AQL standard.'],
@@ -149,6 +153,7 @@
             <div class="zf-md-card">
                 <h4>{{ $mdName }}</h4>
                 <small>{{ $mdRole }}</small>
+                @if($mdPhone)<a href="tel:{{ preg_replace('/[^0-9+]/', '', $mdPhone) }}" class="zf-md-phone"><i class="fa-solid fa-phone"></i> {{ $mdPhone }}</a>@endif
                 <div class="zf-md-social">
                     @if(general()->facebook_link)<a href="{{ general()->facebook_link }}" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>@endif
                     @if(general()->linkedin_link)<a href="{{ general()->linkedin_link }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>@endif
@@ -160,7 +165,7 @@
         <div class="zf-md-text">
             <i class="fa-solid fa-quote-right quote" aria-hidden="true"></i>
             <span class="zf-sub">{{ $page->name }}</span>
-            <h2>A Message From Our<br><b>Managing Director</b></h2>
+            <h2>A Message From Our<br><b>Proprietor</b></h2>
             <div class="zf-md-body">
                 @if(trim(strip_tags((string) $page->description)))
                 {!! $page->description !!}

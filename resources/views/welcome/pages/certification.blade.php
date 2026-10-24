@@ -17,6 +17,7 @@
     .zf-cert h2{font-size:50px;text-transform:uppercase;margin-bottom:45px}
     .zf-cert-desc{max-width:760px;margin:-25px auto 45px;color:#555;font-size:15px}
     .zf-cert-desc p{margin-bottom:10px}
+    @media (max-width:575px){ .zf-cert h2{font-size:38px} }
 </style>
 @endpush
 
@@ -36,7 +37,7 @@
         @if(trim(strip_tags((string) $page->description)))
         <div class="zf-cert-desc">{!! $page->description !!}</div>
         @endif
-        @include(welcomeTheme().'layouts.includes.certLogos')
+        @include(welcomeTheme().'layouts.includes.certDocs')
     </div>
 </section>
 

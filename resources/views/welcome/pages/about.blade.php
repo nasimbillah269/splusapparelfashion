@@ -42,7 +42,7 @@
     .zf-who-imgs{position:relative;padding:0 60px 60px 0}
     .zf-who-imgs .main{height:460px;overflow:hidden}
     .zf-who-imgs .main img,.zf-who-imgs .small img{width:100%;height:100%;object-fit:cover}
-    .zf-who-imgs .small{position:absolute;right:0;bottom:0;width:250px;height:230px;border:10px solid #f2f2f2;overflow:hidden}
+    .zf-who-imgs .small{position:absolute;right:-27px;top:-60px;width:196px;height:230px;border:10px solid #f2f2f2;overflow:hidden}
     .zf-who-imgs .badge{position:absolute;left:-15px;top:30px;background:#e2231a;color:#fff;padding:18px 24px;text-align:center}
     .zf-who-imgs .badge b{display:block;font-family:'Teko',sans-serif;font-size:48px;font-weight:500;line-height:.9}
     .zf-who-imgs .badge small{font-family:'Teko',sans-serif;font-size:15px;text-transform:uppercase;line-height:1.1;display:block}
@@ -211,7 +211,7 @@
         ['Quality Standard 2.5 AQL', 100],
     ];
     $zfBanner = $page->bannerFile ? asset($page->banner()) : $zfImg('1558769132-cb1aea458c5e', 1920);
-    $zfMain = $page->imageFile ? asset($page->image()) : $zfImg('1586363104862-3a5e2ab60d99', 900);
+    $zfMain = $page->imageFile ? asset($page->image()) : asset('images/about-main.jpg');
 @endphp
 
 <div class="zf-home">
@@ -234,7 +234,7 @@
     <div class="zf-wrap">
         <div class="zf-who-imgs">
             <div class="main"><img src="{{ $zfMain }}" alt="{{ $zfName }}"></div>
-            <div class="small"><img src="{{ $zfImg('1523381210434-271e8be1f52b', 600) }}" alt="Garment production" loading="lazy"></div>
+            <div class="small"><img src="{{ asset('images/about-rack.jpg') }}" alt="Garment samples" loading="lazy"></div>
             <div class="badge"><b>13+</b><small>Years Of<br>Experience</small></div>
         </div>
         <div class="zf-who-text">
