@@ -234,9 +234,7 @@
     <div class="zf-wrap">
         <div class="zf-who-imgs">
             <div class="main"><img src="{{ $zfMain }}" alt="{{ $zfName }}"></div>
-            <div class="small"><img src="{{ asset('images/about-rack.jpg') }}" alt="Garment samples" loading="lazy"></div>
-            <div class="badge"><b>13+</b><small>Years Of<br>Experience</small></div>
-        </div>
+            <div class="small"><img src="{{ asset('images/about-rack.jpg') }}" alt="Garment samples" loading="lazy"></div>        </div>
         <div class="zf-who-text">
             <span class="zf-sub">Who We Are</span>
             <h2>The Leading Apparel<br>Sourcing And Exporter</h2>
