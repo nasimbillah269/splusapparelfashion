@@ -31,7 +31,7 @@
     .zh-header > .zh-in{display:flex;align-items:center;justify-content:space-between;height:115px;gap:20px}
     .zh-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
     .zh-logo-mark{width:56px;height:56px;flex:0 0 56px;border-radius:50%;background:#e2231a;display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Teko',sans-serif;font-size:30px;line-height:1;padding-top:4px;box-shadow:inset 0 0 0 4px #2a2b30,0 0 0 2px #e2231a}
-    .zh-logo-text{font-family:'Teko',sans-serif;color:#e2231a;font-size:30px;font-weight:600;letter-spacing:.5px;font-variant:small-caps;line-height:1;white-space:nowrap}
+    .zh-logo-text{font-family:'Teko',sans-serif;color:#fd5b00;font-size:30px;font-weight:600;letter-spacing:.5px;font-variant:small-caps;line-height:1;white-space:nowrap}
     .zh-logo-img{width:125px;height:135px;flex:0 0 125px;object-fit:contain}
     /* footer: undo techwix.css's 52px white-filtered footer logo */
     .tx-footer-logo .zh-logo-img{width:125px;height:135px;filter:none}
