@@ -61,7 +61,7 @@
         .auth-brand:before { width: 520px; height: 520px; right: -220px; top: -160px; background: rgba(255, 255, 255, .04); }
         .auth-brand:after { width: 360px; height: 360px; left: -140px; bottom: -150px; }
         .auth-brand > * { position: relative; z-index: 1; }
-        .auth-brand .brand-logo img { width: 220px; max-width: 100%; height: auto; display: block; }
+        .auth-brand .brand-logo img { width: 120px; max-width: 100%; height: auto; display: block; }
         .auth-brand h1 { font-size: 36px; line-height: 1.2; font-weight: 700; letter-spacing: -.02em; margin-bottom: 16px; }
         .auth-brand h1 span { color: #b9bbff; }
         .auth-brand p.lead { font-size: 16px; line-height: 1.7; color: rgba(255, 255, 255, .75); max-width: 440px; }
@@ -84,7 +84,7 @@
         }
         .auth-top { display: flex; justify-content: space-between; align-items: center; }
         .auth-top .mobile-logo { display: none; }
-        .auth-top .mobile-logo img { height: 34px; width: auto; }
+        .auth-top .mobile-logo img { height: 44px; width: auto; }
         .back-link {
             display: inline-flex; align-items: center; gap: 8px;
             margin-left: auto;
@@ -194,7 +194,7 @@
     <!-- Brand panel -->
     <aside class="auth-brand">
         <a href="{{route('index')}}" class="brand-logo">
-            <img src="{{asset('admin/app-assets/images/yg/logo-white.png')}}" alt="{{general()->title}}">
+            <img src="{{asset(general()->logo())}}" alt="{{general()->title}}">
         </a>
         <div>
             <h1>Welcome back to <br><span>{{general()->title ?: 'Yes Global Tech'}}</span></h1>
@@ -211,7 +211,7 @@
     <!-- Form panel -->
     <main class="auth-main">
         <div class="auth-top">
-            <a href="{{route('index')}}" class="mobile-logo"><img src="{{asset('welcome/images/yesglobal/logo.png')}}" alt="{{general()->title}}"></a>
+            <a href="{{route('index')}}" class="mobile-logo"><img src="{{asset(general()->logo())}}" alt="{{general()->title}}"></a>
             <a href="{{route('index')}}" class="back-link"><i class="fa-solid fa-arrow-left"></i> <span>Back to website</span></a>
         </div>
 
