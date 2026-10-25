@@ -446,23 +446,7 @@ class WelcomeController extends Controller
           'photo' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
           'nid_card' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
           'payment_screenshort' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
-          'g-recaptcha-response' => 'required',
         ]);
-        
-        // Send a POST request to Google for reCAPTCHA verification
-        $recaptchaSecret = '6LdTLTkrAAAAALpRc_6oKMmmbG6izMjCMmgOqBsL';
-        $recaptchaResponse = $r->input('g-recaptcha-response');
-        $remoteIp = $r->ip();
-        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => $recaptchaSecret,
-            'response' => $recaptchaResponse,
-            'remoteip' => $remoteIp,
-        ]);
-        $result = $response->json();
-        if (!$result['success'] || $result['score'] < 0.5) {
-            Session()->flash('error','reCAPTCHA verification failed. Please try again.');
-            return back()->withInput();
-        }
         
         $attachments = [];
 
@@ -517,24 +501,7 @@ class WelcomeController extends Controller
           'email' => 'required|max:100',
           'subject' => 'required|max:100',
           'message' => 'nullable|max:500',
-          'g-recaptcha-response' => 'required',
       ]);
-        
-        
-        // Send a POST request to Google for reCAPTCHA verification
-        $recaptchaSecret = '6LdTLTkrAAAAALpRc_6oKMmmbG6izMjCMmgOqBsL';
-        $recaptchaResponse = $r->input('g-recaptcha-response');
-        $remoteIp = $r->ip();
-        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
-            'secret' => $recaptchaSecret,
-            'response' => $recaptchaResponse,
-            'remoteip' => $remoteIp,
-        ]);
-        $result = $response->json();
-        if (!$result['success'] || $result['score'] < 0.5) {
-            Session()->flash('error','reCAPTCHA verification failed. Please try again.');
-            return back()->withInput();
-        }
 
         if(general()->mail_status && general()->mail_from_address){
             //Mail Data

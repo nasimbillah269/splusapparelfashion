@@ -97,14 +97,17 @@ a:hover, a:focus { color: var(--yg-primary-light); }
     line-height: 32px;
     text-align: center;
     letter-spacing: .5px;
+    object-fit: contain;
 }
 .header-navbar .navbar-header .navbar-brand .yg-logo-name {
     color: #fff;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.15;
-    max-width: 140px;
-    white-space: normal;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .header-navbar .navbar-header .nav-toggle .nav-link,
 .header-navbar .navbar-header .mobile-menu .nav-link {

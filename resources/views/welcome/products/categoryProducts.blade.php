@@ -19,14 +19,14 @@
     .zf-cp-desc{max-width:760px;margin:12px auto 0;color:#555;font-size:15px}
     .zf-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-bottom:35px}
     .zf-chips a{border:1px solid #ddd;padding:7px 18px 4px;font-family:'Teko',sans-serif;font-size:17px;color:#222;text-decoration:none;transition:.25s}
-    .zf-chips a:hover,.zf-chips a.active{background:#e2231a;border-color:#e2231a;color:#fff}
+    .zf-chips a:hover,.zf-chips a.active{background:#fd5b00;border-color:#fd5b00;color:#fff}
 
     /* Image grid: 4 columns, image only */
     .zf-img-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
     .zf-img{position:relative;display:block;aspect-ratio:4/5;overflow:hidden;background:#f2f2f2;padding:0;border:0;cursor:zoom-in;width:100%}
     .zf-img img{width:100%;height:100%;object-fit:cover;transition:transform .7s}
-    .zf-img::after{content:"";position:absolute;inset:0;background:rgba(226,35,26,0);transition:.35s}
-    .zf-img i{position:absolute;left:50%;top:50%;z-index:1;width:54px;height:54px;margin:-27px 0 0 -27px;background:#fff;color:#e2231a;display:flex;align-items:center;justify-content:center;font-size:20px;opacity:0;transform:scale(.6);transition:.35s}
+    .zf-img::after{content:"";position:absolute;inset:0;background:rgba(253,91,0,0);transition:.35s}
+    .zf-img i{position:absolute;left:50%;top:50%;z-index:1;width:54px;height:54px;margin:-27px 0 0 -27px;background:#fff;color:#fd5b00;display:flex;align-items:center;justify-content:center;font-size:20px;opacity:0;transform:scale(.6);transition:.35s}
     .zf-img:hover img{transform:scale(1.08)}
     .zf-img:hover::after{background:rgba(42,43,48,.35)}
     .zf-img:hover i{opacity:1;transform:none}
@@ -36,7 +36,7 @@
     .zf-lb.open{opacity:1;visibility:visible}
     .zf-lb img{max-width:min(92vw,1100px);max-height:86vh;object-fit:contain;box-shadow:0 20px 60px rgba(0,0,0,.5)}
     .zf-lb button{position:absolute;background:rgba(255,255,255,.08);border:0;color:#fff;width:52px;height:52px;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.25s}
-    .zf-lb button:hover{background:#e2231a}
+    .zf-lb button:hover{background:#fd5b00}
     .zf-lb .close{top:20px;right:20px}
     .zf-lb .prev{left:20px;top:50%;margin-top:-26px}
     .zf-lb .next{right:20px;top:50%;margin-top:-26px}

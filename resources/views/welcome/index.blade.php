@@ -25,8 +25,8 @@
     .zf-home h1,.zf-home h2,.zf-home h3,.zf-home h4,.zf-home h5{font-family:'Teko',sans-serif;font-weight:500;color:#1d1d1d;margin:0;line-height:1.1;text-transform:none}
     .zf-home p{margin:0}
     .zf-home img{max-width:100%;display:block}
-    .zf-red{color:#e2231a}
-    .zf-sub{display:block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#e2231a;margin-bottom:8px}
+    .zf-red{color:#fd5b00}
+    .zf-sub{display:block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#fd5b00;margin-bottom:8px}
     .zf-wrap{max-width:1170px;margin:0 auto;padding:0 15px}
 
     /* Hero */
@@ -55,17 +55,17 @@
     .zf-slide.active .zf-anim.d4{transition-delay:1.4s}
     .zf-dots{position:absolute;left:50%;bottom:135px;transform:translateX(-50%);display:flex;gap:10px;z-index:3}
     .zf-dots button{width:12px;height:12px;border-radius:50%;border:2px solid #fff;background:transparent;padding:0;cursor:pointer;transition:.3s}
-    .zf-dots button.active{background:#e2231a;border-color:#e2231a;width:30px;border-radius:6px}
+    .zf-dots button.active{background:#fd5b00;border-color:#fd5b00;width:30px;border-radius:6px}
     .zf-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:50px;height:50px;border:2px solid rgba(255,255,255,.6);background:transparent;color:#fff;font-size:18px;cursor:pointer;opacity:0;transition:.3s}
     .zf-hero:hover .zf-arrow{opacity:1}
-    .zf-arrow:hover{background:#e2231a;border-color:#e2231a}
+    .zf-arrow:hover{background:#fd5b00;border-color:#fd5b00}
     .zf-arrow.prev{left:25px}
     .zf-arrow.next{right:25px}
     .zf-hero-box .zf-tag{font-family:'Teko',sans-serif;color:#fff;font-size:18px;letter-spacing:1px;margin-bottom:8px;display:block}
     .zf-hero-box h1,.zf-hero-box h2{color:#fff;font-size:76px;line-height:1.05}
     .zf-hero-actions{display:flex;align-items:center;gap:18px;margin-top:28px;position:relative;z-index:1}
-    .zf-btn{display:inline-block;background:#e2231a;color:#fff;font-family:'Teko',sans-serif;font-size:17px;letter-spacing:.5px;text-transform:uppercase;padding:12px 30px 9px;border:0;text-decoration:none;transition:.3s}
-    .zf-btn:hover{background:#b8160f;color:#fff}
+    .zf-btn{display:inline-block;background:#fd5b00;color:#fff;font-family:'Teko',sans-serif;font-size:17px;letter-spacing:.5px;text-transform:uppercase;padding:12px 30px 9px;border:0;text-decoration:none;transition:.3s}
+    .zf-btn:hover{background:#d94e00;color:#fff}
     .zf-hero-actions i{color:#fff;font-size:44px;line-height:1}
 
     /* Who we are + stats */
@@ -75,7 +75,7 @@
     .zf-about-text{padding:55px 40px 40px}
     .zf-about-text h2{font-size:52px;margin-bottom:24px}
     .zf-about-text p{font-size:14px;text-align:justify;line-height:1.75}
-    .zf-more{display:inline-block;margin-top:22px;font-family:'Teko',sans-serif;font-size:15px;color:#e2231a;text-transform:uppercase;text-decoration:none;border-bottom:1px solid #e2231a;line-height:1.2}
+    .zf-more{display:inline-block;margin-top:22px;font-family:'Teko',sans-serif;font-size:15px;color:#fd5b00;text-transform:uppercase;text-decoration:none;border-bottom:1px solid #fd5b00;line-height:1.2}
     .zf-about-img{height:345px;overflow:hidden}
     .zf-about-img img{width:100%;height:100%;object-fit:cover}
     .zf-stats{flex:1;padding-top:90px}
@@ -83,7 +83,7 @@
     .zf-stat-grid{display:grid;grid-template-columns:repeat(3,175px);gap:15px}
     .zf-stat{background:#fff;height:190px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;box-shadow:0 2px 12px rgba(0,0,0,.05);transition:.3s}
     .zf-stat:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(0,0,0,.1)}
-    .zf-stat i{font-size:48px;color:#e2231a;margin-bottom:12px}
+    .zf-stat i{font-size:48px;color:#fd5b00;margin-bottom:12px}
     .zf-stat b{display:block;font-family:'Teko',sans-serif;font-size:40px;font-weight:500;line-height:.9}
     .zf-stat small{font-family:'Teko',sans-serif;font-size:15px;text-transform:uppercase;line-height:1.15;letter-spacing:.5px}
     .zf-stat .pre{font-size:13px;text-transform:none}
@@ -92,7 +92,7 @@
     .zf-quality{background:#fff;padding:30px 0 0}
     .zf-center{text-align:center}
     .zf-quality h2{font-size:56px;margin-bottom:22px}
-    .zf-quality h2 b{color:#e2231a;font-weight:600}
+    .zf-quality h2 b{color:#fd5b00;font-weight:600}
     .zf-quality .zf-lead{max-width:1080px;margin:0 auto 32px;font-size:13px}
     /* Marquee: the card set is rendered twice and the track slides by exactly one set, so the loop is seamless */
     .zf-process{overflow:hidden;border-top:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5}
@@ -100,7 +100,7 @@
     .zf-process:hover .zf-track{animation-play-state:paused}
     @keyframes zfMarquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
     .zf-proc{flex:0 0 auto;width:max(20vw,300px);padding:18px 18px 22px;border-right:1px solid #e5e5e5;display:block;color:inherit;text-decoration:none}
-    a.zf-proc:hover h4{color:#e2231a}
+    a.zf-proc:hover h4{color:#fd5b00}
     @media (prefers-reduced-motion:reduce){ .zf-track{animation:none} .zf-process{overflow-x:auto} }
     .zf-proc .img{height:235px;overflow:hidden}
     .zf-proc .img img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
@@ -116,32 +116,12 @@
     .zf-banner .zf-sub{color:#fff;font-size:10px}
     .zf-banner h2{color:#fff;font-size:52px;font-style:italic}
 
-    /* Testimonials */
-    .zf-testi{display:grid;grid-template-columns:1fr 1fr;min-height:575px}
-    .zf-testi-left{background:#24262b;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:flex-end}
-    .zf-testi-left::before,.zf-testi-left::after{content:"";position:absolute;border-radius:50%;border:30px solid rgba(255,255,255,.03);width:300px;height:300px;right:-60px;top:20px}
-    .zf-testi-left::after{width:180px;height:180px;right:0;top:80px;border-width:20px}
-    .zf-testi-inner{position:relative;width:100%;max-width:585px;padding:60px 40px 60px 0}
-    .zf-testi-inner .zf-sub{font-family:'Teko',sans-serif;color:#fff;font-size:18px;font-weight:500;letter-spacing:.5px;margin-bottom:4px}
-    .zf-testi-inner h2{color:#fff;font-size:64px;margin-bottom:40px}
-    /* Items are stacked in one grid cell so the box keeps the height of the tallest one */
-    .zf-testi-items{display:grid}
-    .zf-testi-item{grid-area:1/1;opacity:0;visibility:hidden;transform:translateX(40px);transition:opacity .8s ease,transform .8s ease,visibility .8s}
-    .zf-testi-item.active{opacity:1;visibility:visible;transform:none}
-    .zf-testi-item.leave{transform:translateX(-40px)}
-    .zf-testi-person{display:flex;align-items:center;gap:22px;margin-bottom:38px}
-    .zf-testi-person img{width:100px;height:100px;flex:0 0 100px;border-radius:50%;object-fit:cover;border:4px solid #24262b;box-shadow:0 0 0 3px #4a4c52}
-    .zf-testi-person > div{border-left:4px solid #e2231a;padding:14px 0 18px 24px}
-    .zf-testi-person h5{color:#fff;font-size:26px;margin-bottom:4px}
-    .zf-testi-person small{color:#aaa;font-size:15px}
-    .zf-testi-item p{color:#b5b5b5;font-style:italic;font-size:16px;line-height:1.75;max-width:500px}
-    .zf-testi-dots{display:flex;gap:10px;margin-top:35px}
-    .zf-testi-dots button{width:10px;height:10px;border-radius:5px;border:0;padding:0;background:#55575d;cursor:pointer;transition:.3s}
-    .zf-testi-dots button.active{width:28px;background:#e2231a}
-    .zf-testi-right{background:#ccc center/cover no-repeat}
+    /* Office photos (two side by side) */
+    .zf-testi{display:grid;grid-template-columns:1fr 1fr;gap:15px;padding:20px 0;background:#161515}
+    .zf-testi-img{min-height:520px;background:#ccc center/cover no-repeat;border:8px solid #df6b2e;box-shadow:0 8px 25px rgba(0,0,0,.12)}
 
     /* At a glance */
-    .zf-glance{background:#e2231a;padding:85px 0 95px;color:#fff}
+    .zf-glance{background:#fd5b00;padding:85px 0 95px;color:#fff}
     .zf-glance .zf-wrap{display:grid;grid-template-columns:400px 480px 1fr;gap:0 0;align-items:start}
     .zf-glance .zf-sub{color:#fff;font-size:10px}
     .zf-glance h2{color:#fff;font-size:44px}
@@ -167,9 +147,9 @@
     .zf-cta-left{flex:1}
     .zf-cta-mail{border-left:1px solid #e5e5e5;padding:10px 60px 10px 30px}
     .zf-cta-mail h5{font-size:20px}
-    .zf-cta-mail a{color:#e2231a;font-family:'Teko',sans-serif;font-size:18px;text-decoration:none}
+    .zf-cta-mail a{color:#fd5b00;font-family:'Teko',sans-serif;font-size:18px;text-decoration:none}
     .zf-btn-line{display:inline-block;border:2px solid #222;font-family:'Teko',sans-serif;font-size:16px;text-transform:uppercase;color:#222;padding:12px 26px 9px;text-decoration:none;transition:.3s;white-space:nowrap}
-    .zf-btn-line:hover{background:#e2231a;border-color:#e2231a;color:#fff}
+    .zf-btn-line:hover{background:#fd5b00;border-color:#fd5b00;color:#fff}
 
     @media (max-width:1199px){
         .zf-about .zf-wrap{gap:35px}
@@ -185,9 +165,8 @@
         .zf-about .zf-wrap{flex-direction:column}
         .zf-about-card{flex-basis:auto;max-width:100%;width:100%}
         .zf-stats{padding:0 0 60px;width:100%}
-        .zf-testi{grid-template-columns:1fr}
-        .zf-testi-inner{padding:60px 30px;max-width:none}
-        .zf-testi-right{min-height:380px}
+        .zf-testi{grid-template-columns:1fr;gap:20px;padding:20px}
+        .zf-testi-img{min-height:300px;border-width:6px}
         .zf-glance .zf-wrap{grid-template-columns:1fr}
         .zf-cta{flex-direction:column;text-align:center;margin:0 15px}
         .zf-cta-mail{border-left:0;padding:0}
@@ -199,7 +178,7 @@
         .zf-hero-box::before,.zf-hero-box::after{width:220px}
         .zf-hero-box h1,.zf-hero-box h2{font-size:40px}
         .zf-about-text{padding:40px 22px 30px}
-        .zf-about-text h2,.zf-stats h2,.zf-testi-inner h2{font-size:38px}
+        .zf-about-text h2,.zf-stats h2{font-size:38px}
         .zf-stat-grid{grid-template-columns:repeat(2,1fr)}
         .zf-quality h2,.zf-banner h2{font-size:36px;padding:0 15px}
         .zf-quality .zf-lead{padding:0 15px}
@@ -218,11 +197,11 @@
     $zfImg = fn($id, $w = 1200) => 'https://images.unsplash.com/photo-'.$id.'?auto=format&fit=crop&w='.$w.'&q=75';
     $zfEmail = general()->email;
     $zfProcess = [
-        ['Merchandising', 'Dedicated Merchandising Team', '1520006403909-838d6b92c22e'],
-        ['Research & Development', 'In-House R&D Team', '1528578577235-b963df6db908'],
-        ['Sample Development', 'Dynamic & Experienced Team', '1523381210434-271e8be1f52b'],
-        ['QA And QC', 'Experienced QA & QC Team', '1558171813-4c088753af8f'],
-        ['Production', 'Experienced Production Team', '1581091226825-a6a2a5aee158'],
+        ['Merchandising', 'Dedicated Merchandising Team', 'images/merchandising.jpg'],
+        ['Research & Development', 'In-House R&D Team', 'images/research-development.jpg'],
+        ['Sample Development', 'Dynamic & Experienced Team', 'images/sample-development.jpg'],
+        ['QA And QC', 'Experienced QA & QC Team', 'images/qa-qc-rack.jpg'],
+        ['Production', 'Experienced Production Team', 'images/production.jpg'],
     ];
     // Process cards link to the matching page under the "Services" header menu (matched by name)
     $zfServicesMenu = optional(menu('Header Menus'))->subMenus?->first(fn($m) => mb_strtolower(trim($m->menuName())) == 'services');
@@ -242,14 +221,6 @@
         ['On Time Delivery', 100],
         ['Fast Response and Sample Submission', 100],
         ['Quality Standard 2.5 AQL', 100],
-    ];
-    $zfTestimonials = [
-        ['name' => 'Richard', 'role' => 'Customer', 'image' => $zfImg('1507003211169-0a1dd7228f2d', 240),
-         'text' => 'I have been working with '.$zfName.' for the last few years. Never did I have a chance to complain about their services. The order are always on point. I have still not received any delayed delivery from them, hope they can keep it up.'],
-        ['name' => 'Dov Cohen', 'role' => 'Customer', 'image' => $zfImg('1472099645785-5658abf4ff4e', 240),
-         'text' => 'I have now working with the '.$zfName.' team for 2 plus years now they have been in making our ideas. Their sampling is fast and the quality is always as promised.'],
-        ['name' => 'James Smith', 'role' => 'Customer', 'image' => $zfImg('1500648767791-00dcc994a43e', 240),
-         'text' => 'Great communication from development to shipment. '.$zfName.' understands our market and delivers every order with the quality we expect.'],
     ];
 @endphp
 
@@ -355,7 +326,7 @@
             @foreach($zfProcess as $p)
             @php $pLink = $zfServiceLinks[mb_strtolower($p[0])] ?? null; @endphp
             <{{ $pLink ? 'a' : 'div' }} class="zf-proc" @if($pLink) href="{{ $pLink }}" @endif @if($copy) aria-hidden="true" tabindex="-1" @endif>
-                <div class="img"><img src="{{ $zfImg($p[2], 600) }}" alt="{{ $copy ? '' : $p[0] }}"></div>
+                <div class="img"><img src="{{ str_contains($p[2], '/') ? asset($p[2]) : $zfImg($p[2], 600) }}" alt="{{ $copy ? '' : $p[0] }}"></div>
                 <h4>{{ $p[0] }} <i class="ti ti-arrow-up-right"></i></h4>
                 <p>{{ $p[1] }}</p>
             </{{ $pLink ? 'a' : 'div' }}>
@@ -366,43 +337,17 @@
 </section>
 
 <!-- ================= Banner ================= -->
-<section class="zf-banner" style="background-image:url('{{ $zfImg('1605518216938-7c31b7b14ad0', 1920) }}')">
+<section class="zf-banner" style="background-image:url('{{ asset('images/sample-development.jpg') }}')">
     <div>
         <span class="zf-sub">{{ $zfName }}</span>
         <h2>{{ $zfName }} Ensures the Best Quality Products</h2>
     </div>
 </section>
 
-<!-- ================= Testimonials ================= -->
+<!-- ================= Office photos ================= -->
 <section class="zf-testi">
-    <div class="zf-testi-left">
-        <div class="zf-testi-inner">
-            <span class="zf-sub">Testimonials</span>
-            <h2>What Our Clients Say!</h2>
-            <div class="zf-testi-items">
-                @foreach($zfTestimonials as $k => $t)
-                <div class="zf-testi-item {{ $k == 0 ? 'active' : '' }}">
-                    <div class="zf-testi-person">
-                        <img src="{{ $t['image'] }}" alt="{{ $t['name'] }}" loading="lazy">
-                        <div>
-                            <h5>{{ $t['name'] }}</h5>
-                            <small>{{ $t['role'] }}</small>
-                        </div>
-                    </div>
-                    <p>{{ $t['text'] }}</p>
-                </div>
-                @endforeach
-            </div>
-            @if(count($zfTestimonials) > 1)
-            <div class="zf-testi-dots">
-                @foreach($zfTestimonials as $k => $t)
-                <button type="button" class="{{ $k == 0 ? 'active' : '' }}" aria-label="Testimonial {{ $k + 1 }}"></button>
-                @endforeach
-            </div>
-            @endif
-        </div>
-    </div>
-    <div class="zf-testi-right" style="background-image:url('{{ $zfImg('1522071820081-009f0129c71c', 1100) }}')"></div>
+    <div class="zf-testi-img" style="background-image:url('{{ asset('images/splus-team.webp') }}')"></div>
+    <div class="zf-testi-img" style="background-image:url('{{ asset('images/splus-office.jpg') }}')"></div>
 </section>
 
 <!-- ================= At a glance ================= -->
@@ -502,27 +447,6 @@
             if(!entries[0].isIntersecting) return;
             run(); obs.disconnect();
         }, {threshold:.3}).observe(sec);
-    })();
-
-    // Testimonials: one after another (old one slides out left, next slides in from right)
-    (function(){
-        var items = document.querySelectorAll('.zf-testi-item'), dots = document.querySelectorAll('.zf-testi-dots button'), i = 0, timer;
-        if(items.length < 2) return;
-        function go(n){
-            if(n === i) return;
-            var old = items[i];
-            old.classList.remove('active');
-            old.classList.add('leave');
-            setTimeout(function(){ old.classList.remove('leave'); }, 800);
-            dots[i].classList.remove('active');
-            i = n;
-            items[i].classList.add('active');
-            dots[i].classList.add('active');
-            clearInterval(timer);
-            timer = setInterval(function(){ go((i + 1) % items.length); }, 6000);
-        }
-        dots.forEach(function(d, k){ d.addEventListener('click', function(){ go(k); }); });
-        timer = setInterval(function(){ go((i + 1) % items.length); }, 6000);
     })();
 </script>
 @endpush

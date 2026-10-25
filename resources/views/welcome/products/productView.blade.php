@@ -17,23 +17,23 @@
     .zf-pv > .zf-wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}
     .zf-pv-main{position:relative;height:560px;background:#f2f2f2;overflow:hidden}
     .zf-pv-main img{width:100%;height:100%;object-fit:cover;transition:opacity .3s}
-    .zf-pv-main .tag{position:absolute;left:0;top:25px;background:#e2231a;color:#fff;font-family:'Teko',sans-serif;font-size:17px;letter-spacing:.5px;text-transform:uppercase;padding:7px 18px 4px}
+    .zf-pv-main .tag{position:absolute;left:0;top:25px;background:#fd5b00;color:#fff;font-family:'Teko',sans-serif;font-size:17px;letter-spacing:.5px;text-transform:uppercase;padding:7px 18px 4px}
     .zf-pv-thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:10px}
     .zf-pv-thumbs button{height:90px;padding:0;border:2px solid transparent;background:#f2f2f2;cursor:pointer;overflow:hidden;transition:.25s}
     .zf-pv-thumbs button img{width:100%;height:100%;object-fit:cover}
-    .zf-pv-thumbs button.active,.zf-pv-thumbs button:hover{border-color:#e2231a}
-    .zf-pv-info .ctg{display:inline-block;color:#e2231a;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;text-decoration:none;margin-bottom:6px}
+    .zf-pv-thumbs button.active,.zf-pv-thumbs button:hover{border-color:#fd5b00}
+    .zf-pv-info .ctg{display:inline-block;color:#fd5b00;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;text-decoration:none;margin-bottom:6px}
     .zf-pv-info h2{font-size:54px;margin-bottom:18px}
-    .zf-pv-short{font-size:16px;color:#555;line-height:1.75;border-left:4px solid #e2231a;padding-left:18px;margin-bottom:26px}
+    .zf-pv-short{font-size:16px;color:#555;line-height:1.75;border-left:4px solid #fd5b00;padding-left:18px;margin-bottom:26px}
     .zf-pv-meta{list-style:none;padding:0;margin:0 0 30px;border-top:1px solid #eee}
     .zf-pv-meta li{display:flex;gap:14px;align-items:center;padding:13px 0;border-bottom:1px solid #eee;font-size:14px}
-    .zf-pv-meta i{width:36px;height:36px;flex:0 0 36px;background:#f2f2f2;color:#e2231a;display:flex;align-items:center;justify-content:center;font-size:18px}
+    .zf-pv-meta i{width:36px;height:36px;flex:0 0 36px;background:#f2f2f2;color:#fd5b00;display:flex;align-items:center;justify-content:center;font-size:18px}
     .zf-pv-meta b{font-family:'Teko',sans-serif;font-weight:500;font-size:19px;min-width:120px}
     .zf-pv-actions{display:flex;flex-wrap:wrap;gap:12px}
     .zf-pv-details{background:#f2f2f2;padding:80px 0}
     .zf-pv-details .box{background:#fff;padding:50px 55px}
     .zf-pv-details h3.head{font-size:38px;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid #eee;position:relative}
-    .zf-pv-details h3.head::after{content:"";position:absolute;left:0;bottom:-2px;width:60px;height:2px;background:#e2231a}
+    .zf-pv-details h3.head::after{content:"";position:absolute;left:0;bottom:-2px;width:60px;height:2px;background:#fd5b00}
     .zf-pv-body p{margin-bottom:14px;font-size:15px;line-height:1.85}
     .zf-pv-body h3,.zf-pv-body h4{font-size:26px;margin:22px 0 10px}
     .zf-pv-body ul{padding-left:20px;margin-bottom:16px}

@@ -26,13 +26,13 @@
         @endforeach
     @else
     <div class="logo" title="Sedex">
-        <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="56" fill="none" stroke="#bbb" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="#e2231a"/><text x="60" y="66" text-anchor="middle" font-family="Arial" font-weight="700" font-size="16" fill="#fff">Sedex</text></svg>
+        <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="56" fill="none" stroke="#bbb" stroke-dasharray="2 3"/><circle cx="60" cy="60" r="34" fill="#fd5b00"/><text x="60" y="66" text-anchor="middle" font-family="Arial" font-weight="700" font-size="16" fill="#fff">Sedex</text></svg>
     </div>
     <div class="logo" title="OEKO-TEX STeP">
         <svg viewBox="0 0 170 90"><text x="85" y="38" text-anchor="middle" font-family="Arial" font-weight="700" font-size="26" fill="#666">OEKO-TEX<tspan font-size="12">®</tspan></text><text x="85" y="54" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">CONFIDENCE IN TEXTILES</text><text x="112" y="74" text-anchor="middle" font-family="Arial" font-weight="700" font-size="15" fill="#4a7fc1">STeP</text><rect x="134" y="61" width="16" height="16" rx="3" fill="#6ab04c"/></svg>
     </div>
     <div class="logo" title="Confidence in Textiles">
-        <svg viewBox="0 0 150 100"><path d="M10 70 Q75 0 140 50" fill="none" stroke="#3a9a3a" stroke-width="5"/><circle cx="110" cy="35" r="16" fill="none" stroke="#e8a23b" stroke-width="4" stroke-dasharray="3 2"/><text x="75" y="60" text-anchor="middle" font-family="Arial" font-weight="700" font-size="13" fill="#e2231a">CONFIDENCE</text><text x="75" y="74" text-anchor="middle" font-family="Arial" font-weight="700" font-size="11" fill="#e2231a">IN TEXTILES</text><text x="75" y="88" text-anchor="middle" font-family="Arial" font-size="7" fill="#3a9a3a">Tested for harmful substances</text></svg>
+        <svg viewBox="0 0 150 100"><path d="M10 70 Q75 0 140 50" fill="none" stroke="#3a9a3a" stroke-width="5"/><circle cx="110" cy="35" r="16" fill="none" stroke="#e8a23b" stroke-width="4" stroke-dasharray="3 2"/><text x="75" y="60" text-anchor="middle" font-family="Arial" font-weight="700" font-size="13" fill="#fd5b00">CONFIDENCE</text><text x="75" y="74" text-anchor="middle" font-family="Arial" font-weight="700" font-size="11" fill="#fd5b00">IN TEXTILES</text><text x="75" y="88" text-anchor="middle" font-family="Arial" font-size="7" fill="#3a9a3a">Tested for harmful substances</text></svg>
     </div>
     <div class="logo" title="ISO">
         <svg viewBox="0 0 150 100"><ellipse cx="75" cy="50" rx="62" ry="40" fill="none" stroke="#1d6fb8" stroke-width="3"/><path d="M13 50 H137 M75 10 V90" stroke="#1d6fb8" stroke-width="2"/><text x="75" y="64" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="42" fill="#1d6fb8" stroke="#fff" stroke-width="1.5" paint-order="stroke">ISO</text></svg>

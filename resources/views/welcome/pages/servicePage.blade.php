@@ -16,7 +16,7 @@
     .zf-home h1,.zf-home h2,.zf-home h3,.zf-home h4,.zf-home h5{font-family:'Teko',sans-serif;font-weight:500;color:#1d1d1d;margin:0;line-height:1.1;text-transform:none}
     .zf-home p{margin:0}
     .zf-home img{max-width:100%;display:block}
-    .zf-sub{display:block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#e2231a;margin-bottom:8px}
+    .zf-sub{display:block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#fd5b00;margin-bottom:8px}
     .zf-wrap{max-width:1170px;margin:0 auto;padding:0 15px}
     .zf-center{text-align:center}
 
@@ -30,19 +30,19 @@
     @keyframes zfFrame{to{transform:scaleY(1)}}
     .zf-pbox h1{color:#fff;font-size:76px;position:relative}
     .zf-crumb{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:6px 0 0;padding:0;font-family:'Teko',sans-serif;font-size:18px;color:#fff;position:relative}
-    .zf-crumb li + li::before{content:"/";margin-right:10px;color:#e2231a}
+    .zf-crumb li + li::before{content:"/";margin-right:10px;color:#fd5b00}
     .zf-crumb a{color:#fff;text-decoration:none}
-    .zf-crumb a:hover{color:#e2231a}
+    .zf-crumb a:hover{color:#fd5b00}
 
     /* Main + sidebar */
     .zf-sp{background:#fff;padding:100px 0 90px}
     .zf-sp > .zf-wrap{display:grid;grid-template-columns:1fr 340px;gap:50px;align-items:start}
     .zf-sp-hero{position:relative;height:440px;overflow:hidden;margin-bottom:45px}
     .zf-sp-hero img{width:100%;height:100%;object-fit:cover}
-    .zf-sp-hero .icon{position:absolute;left:0;bottom:0;width:110px;height:110px;background:#e2231a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:54px}
+    .zf-sp-hero .icon{position:absolute;left:0;bottom:0;width:110px;height:110px;background:#fd5b00;color:#fff;display:flex;align-items:center;justify-content:center;font-size:54px}
     .zf-sp-main h2{font-size:50px;margin-bottom:20px}
-    .zf-sp-main h2 b{color:#e2231a;font-weight:600}
-    .zf-sp-lead{font-size:17px;color:#444;border-left:4px solid #e2231a;padding-left:20px;margin-bottom:20px;line-height:1.7}
+    .zf-sp-main h2 b{color:#fd5b00;font-weight:600}
+    .zf-sp-lead{font-size:17px;color:#444;border-left:4px solid #fd5b00;padding-left:20px;margin-bottom:20px;line-height:1.7}
     .zf-sp-body p{text-align:justify;margin-bottom:14px;font-size:15px;line-height:1.85}
     .zf-sp-body h3,.zf-sp-body h4{font-size:28px;margin:24px 0 10px}
     .zf-sp-body ul{padding-left:20px;margin-bottom:16px}
@@ -51,12 +51,12 @@
     .zf-sp-split .img img{width:100%;height:100%;object-fit:cover}
     .zf-checks{list-style:none;padding:0;margin:0;display:grid;gap:12px}
     .zf-checks li{display:flex;gap:12px;align-items:flex-start;font-family:'Teko',sans-serif;font-size:19px;line-height:1.25}
-    .zf-checks i{color:#e2231a;margin-top:3px;font-size:16px}
+    .zf-checks i{color:#fd5b00;margin-top:3px;font-size:16px}
     .zf-sp-h3{font-size:36px;margin-bottom:24px}
     .zf-feat-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
     .zf-feat{display:flex;gap:18px;background:#f2f2f2;padding:28px 25px;transition:.35s;border-bottom:3px solid transparent}
-    .zf-feat:hover{background:#2a2b30;border-color:#e2231a}
-    .zf-feat i{font-size:42px;color:#e2231a;flex:0 0 42px;line-height:1}
+    .zf-feat:hover{background:#2a2b30;border-color:#fd5b00}
+    .zf-feat i{font-size:42px;color:#fd5b00;flex:0 0 42px;line-height:1}
     .zf-feat h4{font-size:24px;margin-bottom:6px;transition:.35s}
     .zf-feat p{font-size:13px;transition:.35s}
     .zf-feat:hover h4{color:#fff}
@@ -65,23 +65,23 @@
     .zf-side{position:sticky;top:140px;display:grid;gap:30px}
     .zf-side-box{background:#f2f2f2;padding:30px 28px}
     .zf-side-box h4{font-size:28px;margin-bottom:18px;padding-bottom:12px;border-bottom:2px solid #e2e2e2;position:relative}
-    .zf-side-box h4::after{content:"";position:absolute;left:0;bottom:-2px;width:50px;height:2px;background:#e2231a}
+    .zf-side-box h4::after{content:"";position:absolute;left:0;bottom:-2px;width:50px;height:2px;background:#fd5b00}
     .zf-side-nav{list-style:none;margin:0;padding:0;display:grid;gap:8px}
     .zf-side-nav a{display:flex;justify-content:space-between;align-items:center;background:#fff;padding:13px 18px;color:#222;font-family:'Teko',sans-serif;font-size:18px;text-decoration:none;transition:.3s}
-    .zf-side-nav a i{font-size:12px;color:#e2231a;transition:.3s}
-    .zf-side-nav a:hover,.zf-side-nav a.active{background:#e2231a;color:#fff}
+    .zf-side-nav a i{font-size:12px;color:#fd5b00;transition:.3s}
+    .zf-side-nav a:hover,.zf-side-nav a.active{background:#fd5b00;color:#fff}
     .zf-side-nav a:hover i,.zf-side-nav a.active i{color:#fff}
     .zf-side-help{position:relative;background:#2a2b30 center/cover no-repeat;padding:40px 30px;color:#fff;overflow:hidden}
     .zf-side-help::before{content:"";position:absolute;inset:0;background:rgba(42,43,48,.88)}
     .zf-side-help > *{position:relative}
-    .zf-side-help i.big{font-size:46px;color:#e2231a;display:block;margin-bottom:10px}
+    .zf-side-help i.big{font-size:46px;color:#fd5b00;display:block;margin-bottom:10px}
     .zf-side-help h4{color:#fff !important;font-size:30px;margin-bottom:8px}
     .zf-side-help p{color:#ccc;font-size:13px;margin-bottom:18px}
     .zf-side-help a{display:block;color:#fff;font-family:'Teko',sans-serif;font-size:22px;text-decoration:none;line-height:1.3}
-    .zf-side-help a:hover{color:#e2231a}
+    .zf-side-help a:hover{color:#fd5b00}
 
     /* Numbers */
-    .zf-sp-stats{background:#e2231a;padding:60px 0}
+    .zf-sp-stats{background:#fd5b00;padding:60px 0}
     .zf-sp-stats .zf-wrap{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
     .zf-sp-stat{display:flex;align-items:center;gap:20px;color:#fff;padding-left:25px;border-left:1px solid rgba(255,255,255,.35)}
     .zf-sp-stat b{font-family:'Teko',sans-serif;font-size:58px;font-weight:500;line-height:.9}
@@ -90,12 +90,12 @@
     /* Process */
     .zf-steps{background:#f2f2f2;padding:95px 0 100px}
     .zf-steps h2{font-size:56px;margin-bottom:50px}
-    .zf-steps h2 b{color:#e2231a;font-weight:600}
+    .zf-steps h2 b{color:#fd5b00;font-weight:600}
     .zf-step-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}
     .zf-step{position:relative;background:#fff;padding:45px 28px 35px;text-align:left;transition:.35s}
     .zf-step:hover{transform:translateY(-6px);box-shadow:0 15px 30px rgba(0,0,0,.08)}
-    .zf-step .no{position:absolute;right:22px;top:12px;font-family:'Teko',sans-serif;font-size:64px;line-height:1;color:rgba(226,35,26,.12)}
-    .zf-step i{font-size:44px;color:#e2231a;display:block;margin-bottom:16px}
+    .zf-step .no{position:absolute;right:22px;top:12px;font-family:'Teko',sans-serif;font-size:64px;line-height:1;color:rgba(253,91,0,.12)}
+    .zf-step i{font-size:44px;color:#fd5b00;display:block;margin-bottom:16px}
     .zf-step h4{font-size:26px;margin-bottom:8px}
     .zf-step p{font-size:13px}
 
@@ -105,8 +105,8 @@
     .zf-sp-pager a{display:flex;align-items:center;gap:16px;color:#222;text-decoration:none}
     .zf-sp-pager a.next{text-align:right;margin-left:auto}
     .zf-sp-pager a i{width:50px;height:50px;border:2px solid #222;display:flex;align-items:center;justify-content:center;transition:.3s;flex:0 0 50px}
-    .zf-sp-pager a:hover i{background:#e2231a;border-color:#e2231a;color:#fff}
-    .zf-sp-pager small{display:block;font-size:11px;font-weight:600;text-transform:uppercase;color:#e2231a;letter-spacing:.5px}
+    .zf-sp-pager a:hover i{background:#fd5b00;border-color:#fd5b00;color:#fff}
+    .zf-sp-pager small{display:block;font-size:11px;font-weight:600;text-transform:uppercase;color:#fd5b00;letter-spacing:.5px}
     .zf-sp-pager span{font-family:'Teko',sans-serif;font-size:24px;line-height:1.1}
 
     /* CTA */
@@ -116,7 +116,7 @@
     .zf-cta h3{font-size:44px}
     .zf-cta-left{flex:1}
     .zf-btn-line{display:inline-block;border:2px solid #222;font-family:'Teko',sans-serif;font-size:16px;text-transform:uppercase;color:#222;padding:12px 26px 9px;text-decoration:none;transition:.3s;white-space:nowrap}
-    .zf-btn-line:hover{background:#e2231a;border-color:#e2231a;color:#fff}
+    .zf-btn-line:hover{background:#fd5b00;border-color:#fd5b00;color:#fff}
 
     @media (max-width:1199px){
         .zf-sp > .zf-wrap{grid-template-columns:1fr 300px;gap:35px}
@@ -150,7 +150,7 @@
 
 @section('contents')
 @php
-    $zfImg = fn($id, $w = 1200) => 'https://images.unsplash.com/photo-'.$id.'?auto=format&fit=crop&w='.$w.'&q=75';
+    $zfImg = fn($id, $w = 1200) => str_contains($id, '/') ? asset($id) : 'https://images.unsplash.com/photo-'.$id.'?auto=format&fit=crop&w='.$w.'&q=75';
 
     // Content for each service page, keyed by page slug.
     // Admin can still override: Description (main text), Feature Image (main photo), Banner.
@@ -201,7 +201,7 @@
                 ['ti ti-needle', 'Sewing', 'Sample sewn by senior machinists.'],
                 ['ti ti-send', 'Submission', 'Measured, checked and sent for approval.'],
             ],
-            'img' => ['1558171813-4c088753af8f', '1523381210434-271e8be1f52b'],
+            'img' => ['images/sample-jeans-rack.jpg', 'images/sample-tshirt-rack.jpg'],
         ],
         'merchandising' => [
             'icon' => 'ti ti-users-group',
@@ -249,7 +249,7 @@
                 ['ti ti-test-pipe', 'Testing', 'Lab test and approval before booking.'],
                 ['ti ti-package', 'Bulk Booking', 'Fabric booked and delivery tracked.'],
             ],
-            'img' => ['1601924994987-69e26d50dc26', '1558769132-cb1aea458c5e'],
+            'img' => ['images/fabric-swatches.jpg', 'images/fabric-shorts-rack.jpg'],
         ],
         'production' => [
             'icon' => 'ti ti-building-factory',
@@ -273,7 +273,7 @@
                 ['ti ti-wash', 'Washing & Finishing', 'Wash, iron and final finishing.'],
                 ['ti ti-box', 'Packing', 'Folded, tagged and packed to buyer standard.'],
             ],
-            'img' => ['1489987707025-afc232f7ea0f', '1586363104862-3a5e2ab60d99'],
+            'img' => ['images/production-rack-wide.jpg', 'images/production-denim-jackets.jpg'],
         ],
         'qa-and-qc' => [
             'icon' => 'ti ti-rosette-discount-check',
@@ -297,7 +297,7 @@
                 ['ti ti-list-check', 'Pre-Final', 'Finished goods checked before packing.'],
                 ['ti ti-certificate', 'Final Inspection', 'AQL inspection and shipment approval.'],
             ],
-            'img' => ['1605518216938-7c31b7b14ad0', '1544441893-675973e31985'],
+            'img' => ['images/qa-denim-jacket-wide.jpg', 'images/qa-denim-jacket.jpg'],
         ],
         'delivery-and-shipment' => [
             'icon' => 'ti ti-ship',

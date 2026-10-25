@@ -37,7 +37,9 @@ class AppServiceProvider extends ServiceProvider
         \Config::set("services.google.client_secret", $general->google_client_secret);
         \Config::set("services.google.redirect", $general->google_client_redirect_url);
 
-        \Config::set("mail.mailers.smtp.transport", $general->mail_driver);
+        // "mail"/"sendmail" ignore host, port and login, so use SMTP whenever a mail host is set
+        $mailDriver = $general->mail_host && in_array($general->mail_driver, ['mail', 'sendmail', null, ''], true) ? 'smtp' : $general->mail_driver;
+        \Config::set("mail.mailers.smtp.transport", $mailDriver);
         \Config::set("mail.mailers.smtp.host", $general->mail_host);
         \Config::set("mail.mailers.smtp.port", $general->mail_port);
         \Config::set("mail.mailers.smtp.encryption", $general->mail_encryption);

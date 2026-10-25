@@ -10,8 +10,8 @@
           </li>
           <li class="nav-item mr-auto">
           <a class="navbar-brand" href="{{route('index')}}">
-            <span class="yg-logo-full yg-logo-text"><span class="yg-logo-mark">SP</span><span class="yg-logo-name">S Plus Apparel Fashion</span></span>
-            <span class="yg-logo-icon yg-logo-mark">SP</span>
+            <span class="yg-logo-full yg-logo-text"><img class="yg-logo-mark" src="{{ asset(general()->favicon()) }}" alt="{{ general()->title }}"><span class="yg-logo-name">{{ general()->title }}</span></span>
+            <img class="yg-logo-icon yg-logo-mark" src="{{ asset(general()->favicon()) }}" alt="{{ general()->title }}">
            </a>
           </li>
          <li class="nav-item d-none d-lg-block nav-toggle"><a class="nav-link modern-nav-toggle pr-0" data-toggle="collapse"><i class="fa-2x fas fa-bars"></i></a></li>

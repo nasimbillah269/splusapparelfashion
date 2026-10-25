@@ -164,11 +164,7 @@
                     </div>
                 </div>
                 <div class="mt-4">
-                    <!--<button type="submit" class="btn btn-success">Submit</button>-->
-                    <button class="g-recaptcha btn btn-success" 
-                    data-sitekey="6LdTLTkrAAAAADMlQDwpl77bDA5tYg68ff5iv6Fx" 
-                    data-callback='onSubmit' 
-                    data-action='submit'>Submit</button>
+                    <button type="submit" class="btn btn-success">Submit</button>
                     
                 </div>
             </form>
@@ -177,20 +173,3 @@
 </div>
 
 @endsection 
-@push('js') 
- <script src="https://www.google.com/recaptcha/api.js"></script>
- 
-  <script>
-   function onSubmit(token) {
-       var recaptchaInput = document.createElement('input');
-            recaptchaInput.type = 'hidden';
-            recaptchaInput.name = 'recaptchaToken';
-            recaptchaInput.value = token;
-            document.getElementById("registerForm").appendChild(recaptchaInput);
-     document.getElementById("registerForm").submit();
-   }
- </script>
- 
- 
-
-@endpush

@@ -6,10 +6,10 @@
     .zh-top{background:#1f2024;color:#cfcfcf;font-family:'Rubik',sans-serif;font-size:12px;border-bottom:1px solid rgba(255,255,255,.06)}
     .zh-top .zh-in{display:flex;justify-content:space-between;align-items:center;height:46px;gap:20px}
     .zh-tagline{display:flex;align-items:center;gap:8px;white-space:nowrap}
-    .zh-tagline i{color:#e2231a}
+    .zh-tagline i{color:#fd5b00}
     .zh-top-right{display:flex;align-items:center;height:100%}
     .zh-top-item{display:flex;align-items:center;gap:8px;height:100%;padding:0 22px;border-left:1px solid rgba(255,255,255,.08);color:#cfcfcf;text-decoration:none;white-space:nowrap;transition:color .25s}
-    .zh-top-item i{color:#e2231a;font-size:13px}
+    .zh-top-item i{color:#fd5b00;font-size:13px}
     a.zh-top-item:hover{color:#fff}
     .zh-follow{display:flex;align-items:center;gap:6px;height:100%;padding-left:22px;border-left:1px solid rgba(255,255,255,.08)}
     .zh-follow > span{margin-right:6px;color:#9a9a9a;text-transform:uppercase;font-size:10px;letter-spacing:1px;font-weight:600}
@@ -30,7 +30,7 @@
     .zh-header.scrolled{box-shadow:0 6px 25px rgba(0,0,0,.35)}
     .zh-header > .zh-in{display:flex;align-items:center;justify-content:space-between;height:115px;gap:20px}
     .zh-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
-    .zh-logo-mark{width:56px;height:56px;flex:0 0 56px;border-radius:50%;background:#e2231a;display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Teko',sans-serif;font-size:30px;line-height:1;padding-top:4px;box-shadow:inset 0 0 0 4px #2a2b30,0 0 0 2px #e2231a}
+    .zh-logo-mark{width:56px;height:56px;flex:0 0 56px;border-radius:50%;background:#fd5b00;display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Teko',sans-serif;font-size:30px;line-height:1;padding-top:4px;box-shadow:inset 0 0 0 4px #2a2b30,0 0 0 2px #fd5b00}
     .zh-logo-text{font-family:'Teko',sans-serif;color:#fd5b00;font-size:30px;font-weight:600;letter-spacing:.5px;font-variant:small-caps;line-height:1;white-space:nowrap}
     .zh-logo-img{width:125px;height:135px;flex:0 0 125px;object-fit:contain}
     /* footer: undo techwix.css's 52px white-filtered footer logo */
@@ -40,15 +40,15 @@
     .zh-menu > li{position:relative}
     .zh-menu > li > a{display:block;font-family:'Teko',sans-serif;font-size:22px;letter-spacing:.3px;text-transform:uppercase;color:#fff;text-decoration:none;padding:45px 0}
     .zh-menu > li > a i{font-size:9px;margin-left:4px}
-    .zh-menu > li.active > a,.zh-menu > li:hover > a{color:#e2231a}
+    .zh-menu > li.active > a,.zh-menu > li:hover > a{color:#fd5b00}
     .zh-drop{position:absolute;top:100%;left:-20px;min-width:220px;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.15);opacity:0;visibility:hidden;transform:translateY(10px);transition:.3s;z-index:5}
     .zh-menu > li:hover .zh-drop{opacity:1;visibility:visible;transform:none}
     .zh-drop a{display:block;padding:10px 20px;color:#222;font-family:'Rubik',sans-serif;font-size:13px;text-decoration:none;border-bottom:1px solid #f0f0f0;transition:.25s}
-    .zh-drop a:hover{color:#e2231a;padding-left:26px}
-    .zh-drop a.active{color:#e2231a;border-bottom-color:#e2231a}
+    .zh-drop a:hover{color:#fd5b00;padding-left:26px}
+    .zh-drop a.active{color:#fd5b00;border-bottom-color:#fd5b00}
     .zh-call{display:flex;align-items:center;gap:14px;color:#fff;text-decoration:none;font-family:'Rubik',sans-serif;white-space:nowrap}
     .zh-call:hover{color:#fff}
-    .zh-call i{font-size:30px;color:#e2231a}
+    .zh-call i{font-size:30px;color:#fd5b00}
     .zh-call small{display:block;font-size:10px;color:#bbb}
     .zh-call b{font-size:14px;font-weight:500}
     .zh-toggle{display:none;background:none;border:0;color:#fff;font-size:24px;cursor:pointer}

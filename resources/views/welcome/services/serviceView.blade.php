@@ -16,7 +16,7 @@
     .zf-home h1,.zf-home h2,.zf-home h3,.zf-home h4,.zf-home h5{font-family:'Teko',sans-serif;font-weight:500;color:#1d1d1d;margin:0;line-height:1.1;text-transform:none}
     .zf-home p{margin:0}
     .zf-home img{max-width:100%;display:block}
-    .zf-sub{display:block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#e2231a;margin-bottom:8px}
+    .zf-sub{display:block;font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#fd5b00;margin-bottom:8px}
     .zf-wrap{max-width:1170px;margin:0 auto;padding:0 15px}
 
     /* Page banner: same white frame as the home hero */
@@ -29,9 +29,9 @@
     @keyframes zfFrame{to{transform:scaleY(1)}}
     .zf-pbox h1{color:#fff;font-size:76px;position:relative}
     .zf-crumb{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:6px 0 0;padding:0;font-family:'Teko',sans-serif;font-size:18px;color:#fff;position:relative}
-    .zf-crumb li + li::before{content:"/";margin-right:10px;color:#e2231a}
+    .zf-crumb li + li::before{content:"/";margin-right:10px;color:#fd5b00}
     .zf-crumb a{color:#fff;text-decoration:none}
-    .zf-crumb a:hover{color:#e2231a}
+    .zf-crumb a:hover{color:#fd5b00}
 
     /* Layout */
     .zf-svc{background:#f2f2f2;padding:100px 0}
@@ -42,10 +42,10 @@
     .zf-side-box ul{list-style:none;margin:0;padding:0}
     .zf-side-box a{display:flex;justify-content:space-between;align-items:center;padding:13px 28px;color:#ccc;text-decoration:none;font-family:'Teko',sans-serif;font-size:19px;border-left:4px solid transparent;transition:.3s}
     .zf-side-box a i{font-size:13px;opacity:.5;transition:.3s}
-    .zf-side-box a:hover,.zf-side-box a.active{color:#fff;background:rgba(255,255,255,.04);border-left-color:#e2231a}
-    .zf-side-box a.active i,.zf-side-box a:hover i{opacity:1;color:#e2231a;transform:translateX(3px)}
-    .zf-side-help{position:relative;background:#e2231a center/cover no-repeat;padding:40px 30px;color:#fff;text-align:center;overflow:hidden}
-    .zf-side-help::before{content:"";position:absolute;inset:0;background:rgba(226,35,26,.88)}
+    .zf-side-box a:hover,.zf-side-box a.active{color:#fff;background:rgba(255,255,255,.04);border-left-color:#fd5b00}
+    .zf-side-box a.active i,.zf-side-box a:hover i{opacity:1;color:#fd5b00;transform:translateX(3px)}
+    .zf-side-help{position:relative;background:#fd5b00 center/cover no-repeat;padding:40px 30px;color:#fff;text-align:center;overflow:hidden}
+    .zf-side-help::before{content:"";position:absolute;inset:0;background:rgba(253,91,0,.88)}
     .zf-side-help > *{position:relative}
     .zf-side-help i.big{font-size:46px;display:block;margin-bottom:10px}
     .zf-side-help h4{color:#fff !important;font-size:30px;margin-bottom:6px}
@@ -57,12 +57,12 @@
     .zf-svc-img img{width:100%;height:100%;object-fit:cover}
     .zf-svc-body{padding:50px 50px 55px}
     .zf-svc-body > h2{font-size:52px;margin-bottom:16px}
-    .zf-svc-lead{font-size:16px;line-height:1.8;color:#444;border-left:4px solid #e2231a;padding-left:20px;margin-bottom:28px !important}
+    .zf-svc-lead{font-size:16px;line-height:1.8;color:#444;border-left:4px solid #fd5b00;padding-left:20px;margin-bottom:28px !important}
     .zf-content p{margin-bottom:16px;text-align:justify;line-height:1.85}
     .zf-content h3,.zf-content h4{font-size:32px;margin:30px 0 14px}
     .zf-content ul{list-style:none;padding:0;margin:0 0 20px;display:grid;grid-template-columns:1fr 1fr;gap:12px 25px}
     .zf-content ul li{position:relative;padding-left:28px}
-    .zf-content ul li::before{content:"\f058";font-family:'Font Awesome 6 Free';font-weight:900;position:absolute;left:0;top:0;color:#e2231a}
+    .zf-content ul li::before{content:"\f058";font-family:'Font Awesome 6 Free';font-weight:900;position:absolute;left:0;top:0;color:#fd5b00}
     .zf-gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
     .zf-gallery a{height:170px;overflow:hidden;display:block}
     .zf-gallery img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
@@ -73,9 +73,9 @@
     .zf-faq > h3{font-size:36px;margin-bottom:18px !important}
     .zf-home .tx-faq-item{border:1px solid #e5e5e5;margin-bottom:12px;background:#fff}
     .zf-home .tx-faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:15px;background:none;border:0;padding:16px 20px;text-align:left;font-family:'Teko',sans-serif;font-size:21px;color:#1d1d1d;cursor:pointer}
-    .zf-home .tx-faq-q span{flex:0 0 32px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;background:#f2f2f2;color:#e2231a;font-size:12px;border-radius:0}
+    .zf-home .tx-faq-q span{flex:0 0 32px;width:32px;height:32px;display:flex;align-items:center;justify-content:center;background:#f2f2f2;color:#fd5b00;font-size:12px;border-radius:0}
     .zf-home .tx-faq-item.open .tx-faq-q{border-bottom:1px solid #e5e5e5}
-    .zf-home .tx-faq-item.open .tx-faq-q span{background:#e2231a;color:#fff}
+    .zf-home .tx-faq-item.open .tx-faq-q span{background:#fd5b00;color:#fff}
     .zf-home .tx-faq-a{padding:18px 20px;font-size:14px;color:#555;line-height:1.8}
 
     /* CTA */
@@ -85,7 +85,7 @@
     .zf-cta h3{font-size:44px}
     .zf-cta-left{flex:1}
     .zf-btn-line{display:inline-block;border:2px solid #222;font-family:'Teko',sans-serif;font-size:16px;text-transform:uppercase;color:#222;padding:12px 26px 9px;text-decoration:none;transition:.3s;white-space:nowrap}
-    .zf-btn-line:hover{background:#e2231a;border-color:#e2231a;color:#fff}
+    .zf-btn-line:hover{background:#fd5b00;border-color:#fd5b00;color:#fff}
 
     @media (max-width:991px){
         .zf-pbanner{height:360px}
@@ -160,7 +160,7 @@
                     @endforeach
                 </ul>
             </div>
-            <div class="zf-side-help" style="background-image:url('{{ $zfImg('1522071820081-009f0129c71c', 600) }}')">
+            <div class="zf-side-help" style="background-image:url('{{ asset('images/splus-team.webp') }}')">
                 <i class="ti ti-headset big"></i>
                 <h4>Need Any Help?</h4>
                 <p>Talk to our team about your next order.</p>

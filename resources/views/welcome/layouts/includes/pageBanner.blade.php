@@ -1,6 +1,6 @@
 {{-- Inner page banner. Params: $title, $crumbs (array of [label, url|null]), $bannerImage (optional) --}}
 @php
-    $bannerImage = $bannerImage ?? 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2000&q=75';
+    $bannerImage = $bannerImage ?? asset('images/splus-team.webp');
 @endphp
 <section class="tx-banner">
     <div class="tx-banner-bg" style="background-image:url('{{$bannerImage}}')"></div>

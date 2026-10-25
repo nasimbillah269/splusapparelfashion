@@ -16,15 +16,15 @@
     /* Info cards */
     .zf-ct-info{background:#fff;padding:0 0 90px;position:relative;z-index:2}
     .zf-info-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:-70px}
-    .zf-info{position:relative;background:#fff;padding:36px 26px 30px;box-shadow:0 10px 35px rgba(0,0,0,.08);border-bottom:3px solid #e2231a;overflow:hidden;transition:.35s}
+    .zf-info{position:relative;background:#fff;padding:36px 26px 30px;box-shadow:0 10px 35px rgba(0,0,0,.08);border-bottom:3px solid #fd5b00;overflow:hidden;transition:.35s}
     .zf-info::before{content:"";position:absolute;inset:0;background:#2a2b30;transform:translateY(101%);transition:.4s;z-index:0}
     .zf-info:hover::before{transform:none}
     .zf-info > *{position:relative;z-index:1}
-    .zf-info .ico{width:62px;height:62px;background:#e2231a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:18px;transition:.35s}
-    .zf-info:hover .ico{background:#fff;color:#e2231a}
+    .zf-info .ico{width:62px;height:62px;background:#fd5b00;color:#fff;display:flex;align-items:center;justify-content:center;font-size:28px;margin-bottom:18px;transition:.35s}
+    .zf-info:hover .ico{background:#fff;color:#fd5b00}
     .zf-info h4{font-size:26px;margin-bottom:6px;transition:.35s}
     .zf-info p,.zf-info a{display:block;color:#555;font-size:14px;line-height:1.6;text-decoration:none;word-break:break-word;transition:.35s}
-    .zf-info a:hover{color:#e2231a}
+    .zf-info a:hover{color:#fd5b00}
     .zf-info:hover h4,.zf-info:hover p,.zf-info:hover a{color:#fff}
 
     /* Form + side panel */
@@ -32,40 +32,40 @@
     .zf-ct-box{display:grid;grid-template-columns:400px 1fr;background:#fff;box-shadow:0 10px 40px rgba(0,0,0,.06)}
     .zf-ct-side{position:relative;background:#2a2b30 center/cover no-repeat;color:#fff;padding:55px 40px;overflow:hidden}
     .zf-ct-side::before{content:"";position:absolute;inset:0;background:rgba(36,38,43,.92)}
-    .zf-ct-side::after{content:"";position:absolute;right:-70px;bottom:-70px;width:220px;height:220px;border-radius:50%;border:30px solid rgba(226,35,26,.25)}
+    .zf-ct-side::after{content:"";position:absolute;right:-70px;bottom:-70px;width:220px;height:220px;border-radius:50%;border:30px solid rgba(253,91,0,.25)}
     .zf-ct-side > *{position:relative;z-index:1}
-    .zf-ct-side .zf-sub{color:#e2231a}
+    .zf-ct-side .zf-sub{color:#fd5b00}
     .zf-ct-side h3{color:#fff !important;font-size:42px;margin-bottom:14px}
     .zf-ct-side > p{color:#bbb;font-size:14px;margin-bottom:30px}
     .zf-ct-list{list-style:none;margin:0 0 35px;padding:0;display:grid;gap:22px}
     .zf-ct-list li{display:flex;gap:16px;align-items:flex-start}
-    .zf-ct-list i{width:44px;height:44px;flex:0 0 44px;border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:#e2231a;font-size:17px}
+    .zf-ct-list i{width:44px;height:44px;flex:0 0 44px;border:1px solid rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;color:#fd5b00;font-size:17px}
     .zf-ct-list small{display:block;color:#999;font-size:11px;text-transform:uppercase;letter-spacing:1px;font-weight:600}
     .zf-ct-list a,.zf-ct-list span{color:#fff;font-family:'Teko',sans-serif;font-size:21px;line-height:1.25;text-decoration:none;word-break:break-word}
-    .zf-ct-list a:hover{color:#e2231a}
+    .zf-ct-list a:hover{color:#fd5b00}
     .zf-ct-social{display:flex;gap:8px}
     .zf-ct-social a{width:40px;height:40px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,.08);color:#fff;text-decoration:none;transition:.3s}
-    .zf-ct-social a:hover{background:#e2231a;transform:translateY(-3px)}
+    .zf-ct-social a:hover{background:#fd5b00;transform:translateY(-3px)}
 
     .zf-ct-form{padding:55px 55px 50px}
     .zf-ct-form h3{font-size:42px;margin-bottom:6px}
-    .zf-ct-form h3 b{color:#e2231a;font-weight:600}
+    .zf-ct-form h3 b{color:#fd5b00;font-weight:600}
     .zf-ct-form > p{color:#777;margin-bottom:30px}
     .zf-fields{display:grid;grid-template-columns:1fr 1fr;gap:20px}
     .zf-field{position:relative}
     .zf-field.full{grid-column:1 / -1}
     .zf-field label{display:block;font-family:'Teko',sans-serif;font-size:18px;color:#1d1d1d;margin-bottom:6px}
-    .zf-field label span{color:#e2231a}
+    .zf-field label span{color:#fd5b00}
     .zf-field .wrap{position:relative}
     .zf-field .wrap i{position:absolute;left:16px;top:17px;color:#aaa;font-size:15px;transition:.25s;pointer-events:none}
     .zf-input{width:100%;background:#f7f7f7;border:1px solid #e6e6e6;padding:14px 16px 14px 44px;font-family:'Rubik',sans-serif;font-size:14px;color:#222;outline:none;transition:.25s;border-radius:0}
     textarea.zf-input{min-height:150px;resize:vertical}
-    .zf-input:focus{background:#fff;border-color:#e2231a;box-shadow:0 0 0 3px rgba(226,35,26,.08)}
-    .zf-field .wrap:focus-within i{color:#e2231a}
-    .zf-error{display:block;color:#e2231a;font-size:12px;margin-top:5px}
+    .zf-input:focus{background:#fff;border-color:#fd5b00;box-shadow:0 0 0 3px rgba(253,91,0,.08)}
+    .zf-field .wrap:focus-within i{color:#fd5b00}
+    .zf-error{display:block;color:#fd5b00;font-size:12px;margin-top:5px}
     .zf-alert{padding:14px 18px;margin-bottom:24px;font-size:14px;display:flex;gap:10px;align-items:center}
     .zf-alert.success{background:#e9f7ef;color:#1e7e45;border-left:4px solid #1e7e45}
-    .zf-alert.error{background:#fdecea;color:#b3261e;border-left:4px solid #e2231a}
+    .zf-alert.error{background:#fdecea;color:#b3261e;border-left:4px solid #fd5b00}
     .zf-form-foot{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:26px;flex-wrap:wrap}
     .zf-form-foot small{color:#888;font-size:12px;display:flex;align-items:center;gap:6px}
     .zf-form-foot small i{color:#1e7e45}
@@ -210,13 +210,9 @@
                             @error('message')<span class="zf-error">{{ $message }}</span>@enderror
                         </div>
                     </div>
-                    @error('g-recaptcha-response')<span class="zf-error" style="margin-top:14px">Please verify you are not a robot and try again.</span>@enderror
                     <div class="zf-form-foot">
                         <small><i class="fa-solid fa-shield-halved"></i> Your information is safe with us.</small>
-                        <button class="g-recaptcha zf-btn"
-                            data-sitekey="6LdTLTkrAAAAADMlQDwpl77bDA5tYg68ff5iv6Fx"
-                            data-callback="onContactSubmit"
-                            data-action="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                        <button type="submit" class="zf-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
                     </div>
                 </form>
             </div>
@@ -227,13 +223,3 @@
 </div>
 @endsection
 
-@push('js')
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-    function onContactSubmit(token){
-        var form = document.getElementById('contactForm');
-        if(!form.reportValidity()) return;
-        form.submit();
-    }
-</script>
-@endpush

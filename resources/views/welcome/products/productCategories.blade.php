@@ -19,7 +19,7 @@
     .zf-why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:25px}
     .zf-why{background:#fff;padding:38px 28px;text-align:left;transition:.35s}
     .zf-why:hover{background:#2a2b30}
-    .zf-why i{font-size:46px;color:#e2231a;display:block;margin-bottom:14px}
+    .zf-why i{font-size:46px;color:#fd5b00;display:block;margin-bottom:14px}
     .zf-why h4{font-size:26px;margin-bottom:6px;transition:.35s}
     .zf-why p{font-size:13px;transition:.35s}
     .zf-why:hover h4{color:#fff}

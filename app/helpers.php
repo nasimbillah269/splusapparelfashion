@@ -151,8 +151,8 @@ function sendMail($toEmail,$toName,$subject,$datas,$template,$attachments=null){
         
     });
       return true;
-  } catch (Exception $ex) {
-      // Debug via $ex->getMessage();
+  } catch (\Throwable $ex) {
+      \Log::error('sendMail failed: '.$ex->getMessage());
       return false;
   }
 
