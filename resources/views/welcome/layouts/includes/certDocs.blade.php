@@ -1,9 +1,9 @@
 {{-- Company certificates (home page + Certification page). Images live in public/images/certificates. --}}
 @php
     $zfCertDocs = [
-        ['bgbha-membership.webp', 'BGBHA Membership Certificate'],
+        ['bgbha-membership.webp', 'BGBA Membership Certificate'],
         ['trade-license.webp', 'Trade License (DNCC)'],
-        ['vat-registration.webp', 'VAT Registration Certificate (NBR)'],
+        ['vat-registration.webp', 'BIN Certificate'],
         ['buying-house-registration.webp', 'Buying House Registration (DOT)'],
     ];
 @endphp
